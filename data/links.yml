@@ -3,7 +3,6 @@ tiles:
   name: "google"
   url: "https://google.com"
   img: "logos/google.svg"
-  tags: ["favorite", "search"]
 -
   name: "bing"
   url: "https://bing.com"
@@ -99,3 +98,12 @@ tiles:
   img: "logos/imgur.svg"
   bg_color: "#ffffff"
   txt_color: "#85bf25"
+  
+-
+  name: "my_project"
+  url: "https://github.com"
+  img: "logos/my_project.svg"
+  bg_color: "#005483"
+  txt_color: "#ffffff"
+  tags: ["video"]
+  
