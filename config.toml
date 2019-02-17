@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "slate theme demo"
+title = "Data Science Portfolio"
 theme = "slate"
 ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$",]
 publishDir = "docs"

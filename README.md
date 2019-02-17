@@ -1,4 +1,4 @@
-# slate theme for hugo
+# Data Science Portfolio
 
 ## Usage
 
