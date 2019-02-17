@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseurl = "https://jsta.github.io/ds-portfolio"
 languageCode = "en-us"
 title = "Data Science Portfolio"
 ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$",]
