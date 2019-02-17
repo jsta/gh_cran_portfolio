@@ -2,10 +2,28 @@
 
 ## Usage
 
+### Preview site
+
 ```r 
 blogdown::serve_site()
 
 ```
+
+### Build site
+
+```r
+blogdown::build_site() # then push to GH
+```
+
+### Add project
+
+Create svg icon using [scripts/hexsticker.R](scripts/hexsticker.R)
+
+Add entry in [data/links.yml](data/links.yml)
+
+### Add category
+
+_Manually_ via [config.toml](config.toml)
 
 ## Configuration
 
