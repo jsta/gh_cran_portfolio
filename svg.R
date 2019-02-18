@@ -2,10 +2,11 @@
 
 cmdargs <- commandArgs(trailingOnly = TRUE)
 
-project_name <- cmdargs[1]
-project_url  <- cmdargs[2]
-project_tag  <- cmdargs[3]
-# project_icon <- cmdargs[3]
+project_name <- cmdargs[1] 
+project_url  <- cmdargs[2]  
+project_tag  <- cmdargs[3]  
+# project_name <- "my_project"; project_url <- "https://github.com/"; project_tag <- "video"
+outpath <- file.path("static/logos", paste0(project_name, ".svg"))
 
 library(svglite)
 library(magrittr)
@@ -13,14 +14,12 @@ library(magick)
 library(rsvg)
 
 library(reticulate)
-toml <- import("toml")
+# toml <- import("toml")
 py   <- import_builtins()
 pyyaml <- import("yaml")
-
 library(yaml)
 
 # project_name <- "my_project"
-outpath <- file.path("static/logos", paste0(project_name, ".svg"))
 svglite(outpath)
 plot.new()
 text(0.5, 0.5, project_name, cex = 10)
@@ -32,6 +31,7 @@ image_read_svg(outpath) %>%
   image_write(outpath, format = "svg")
 
 # add to toml manually
+# project_icon <- cmdargs[3]
 # config      <- toml$load("config.toml")
 # config_list <- config$params$nav
 # config_list <- c(config_list, list(list(name = project_name, 
@@ -43,20 +43,37 @@ image_read_svg(outpath) %>%
 #   toml$dump(config, file)
 # })
 
-yl <- yaml::read_yaml("data/links.yml")
-purrr::map_chr(yl$tiles, "name")
+# yl <- yaml::read_yaml("data/links.yml")
+# purrr::map_chr(yl$tiles, "name")
 
 with(py$open("data/links.yml", "r") %as% file, {
- test <- pyyaml$load(file)
+ yl <- pyyaml$load(file)
 })
-
-test <- pyyaml$load("data/links.yml")
 
 yl <- c(yl$tiles, list(list(
   name = project_name,
   url = project_url,
   img = file.path("logos", basename(outpath)),
   tags = project_tag)))
+
+# TODO need to figure out how to `cat` yaml strings 
+writeLines("tiles:", con = "data/links.yml")
+system("echo - >> data/links.yml")
+lapply(yl, 
+       function(x) {
+         # x <- yl[[1]]
+         # yaml::as.yaml(x)
+         cat(
+           gsub("\n", "\n\t", paste0("\t", 
+                                     yaml::as.yaml(x, 
+                             handlers = list(character = function(x) quote(x)))
+                                     )), 
+             file = "data/links.yml", append = TRUE)
+         print(yaml::as.yaml(x))
+         system2("echo", "'' >> data/links.yml")
+         system2("echo", "'-' >> data/links.yml")
+         })
+
 yaml::write_yaml(yl, "data/links.yml")
 
 # x <- yaml.load("speeds: [10mbps, 100mbps]")

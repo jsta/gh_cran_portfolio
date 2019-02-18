@@ -11,24 +11,24 @@ OpenLinksInNewWindow = true
 [[params.nav]]
 name = "favorites"
 tag = "favorite"
-icon = "star"
+icon = "rebel"
 
 [[params.nav]]
-name = "search"
-tag = "search"
-icon = "search"
-
-[[params.nav]]
-name = "shopping"
-tag = "shopping"
-icon = "shopping-basket"
-
-[[params.nav]]
-name = "music"
-tag = "music"
-icon = "headphones"
+name = "R"
+tag = "R"
+icon = "r-project"
 
 [[params.nav]]
 name = "python"
 tag = "python"
 icon = "python"
+
+[[params.nav]]
+name = "aws"
+tag = "aws"
+icon = "aws"
+
+[[params.nav]]
+name = "shopping"
+tag = "shopping"
+icon = "js"

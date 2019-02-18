@@ -1,8 +1,10 @@
 <div class="nav-panel">
     <nav>
         <ul>
-            <li class="tag"><a data-tooltip="all" href="#"><i class="icon fa fa-th" aria-hidden="true"></i></a></li>
+            <li class="tag"><a data-tooltip="all" href="#"><i class="icon fas fa-th" aria-hidden="true"></i></a></li>
 {{ range .Site.Params.nav }}            {{ partial "nav_item.html" . }}{{- end }}
+            <li class="tag"><a data-tooltip="Fortran" href="#"><i class="icon fas" aria-hidden="true">F</i></a></li>
+            <li class="tag"><a data-tooltip="TeX" href="#"><i class="icon fas" aria-hidden="true">TeX</i></a></li>
         </ul>
     </nav>
 </div>

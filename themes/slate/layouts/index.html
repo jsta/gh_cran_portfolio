@@ -3,6 +3,7 @@
     <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
     <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
     <link rel="stylesheet" href="css/slate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
