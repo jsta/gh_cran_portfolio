@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/ds-portfolio/categories/</loc>
+    <loc>https://jsta.github.io/ds-portfolio/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/ds-portfolio/</loc>
+    <loc>https://jsta.github.io/ds-portfolio/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/ds-portfolio/tags/</loc>
+    <loc>https://jsta.github.io/ds-portfolio/tags/</loc>
     <priority>0</priority>
   </url>
   
