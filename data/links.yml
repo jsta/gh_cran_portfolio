@@ -103,5 +103,13 @@ tiles:
   img: "logos/smwrWQ.svg"
   bg_color: "#005483"
   txt_color: "#ffffff"
-  tags: ["R", "fortran"]
+  tags: ["rstats", "fortran"]
+
+-
+  name: "nhdR"
+  url: "https://github.com/jsta/nhdR"
+  img: "logos/nhdR.svg"
+  bg_color: "#005483"
+  txt_color: "#ffffff"
+  tags: ["rstats"]
   

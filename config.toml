@@ -16,7 +16,7 @@ icon = "fas fa-star"
 
 [[params.nav]]
 name = "R"
-tag = "R"
+tag = "rstats"
 icon = "fab fa-r-project"
 
 [[params.nav]]
