@@ -9,14 +9,14 @@ tiles:
   img: "logos/bing.svg"
   txt_color: "#ffffff"
   bg_color: "#ffb900"
-  tags: ["search"]
+  tags: ["TeX"]
 -
   name: "amazon"
   url: "https://amazon.com"
   img: "logos/amazon.svg"
   bg_color: "#ffffff"
   txt_color: "#ff9900"
-  tags: ["favorite", "shopping"]
+  tags: ["favorite"]
 -
   name: "reddit"
   url: "https://reddit.com"
@@ -29,28 +29,26 @@ tiles:
   img: "logos/spotify.svg"
   bg_color: "#191414"
   txt_color: "#1db954"
-  tags: ["favorite", "music"]
+  tags: ["favorite"]
 -
   name: "google music"
   url: "https://play.google.com/music/listen"
   img: "logos/google-music.png"
   bg_color: "#ffffff"
   txt_color: "#ff5722"
-  tags: ["music"]
+  tags: ["aws"]
 -
   name: "pandora"
   url: "https://pandora.com"
   img: "logos/pandora.svg"
   bg_color: "#005483"
   txt_color: "#ffffff"
-  tags: ["music"]
 -
   name: "soundcloud"
   url: "https://soundcloud.com"
   img: "logos/soundcloud.svg"
   bg_color: "#ffffff"
   txt_color: "#ff3300"
-  tags: ["music"]
 -
   name: "wikipedia"
   url: "https://wikipedia.org"
@@ -90,7 +88,7 @@ tiles:
   img: "logos/netflix.svg"
   bg_color: "#221f1f"
   txt_color: "#e50914"
-  tags: ["video"]
+  tags: ["python"]
 
 -
   name: "imgur"
@@ -100,10 +98,10 @@ tiles:
   txt_color: "#85bf25"
   
 -
-  name: "my_project"
-  url: "https://github.com"
-  img: "logos/my_project.svg"
+  name: "smwrWQ"
+  url: "https://github.com/USGS-R/smwrQW"
+  img: "logos/smwrWQ.svg"
   bg_color: "#005483"
   txt_color: "#ffffff"
-  tags: ["video"]
+  tags: ["R", "fortran"]
   

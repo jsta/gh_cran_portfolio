@@ -8,27 +8,40 @@ publishDir = "docs"
 [params]
 Favicon = "favicon.ico"
 OpenLinksInNewWindow = true
+
 [[params.nav]]
 name = "favorites"
 tag = "favorite"
-icon = "rebel"
+icon = "fas fa-star"
 
 [[params.nav]]
 name = "R"
 tag = "R"
-icon = "r-project"
+icon = "fab fa-r-project"
 
 [[params.nav]]
 name = "python"
 tag = "python"
-icon = "python"
+icon = "fab fa-python"
 
 [[params.nav]]
 name = "aws"
 tag = "aws"
-icon = "aws"
+icon = "fab fa-aws"
 
 [[params.nav]]
-name = "shopping"
-tag = "shopping"
-icon = "js"
+name = "js"
+tag = "js"
+icon = "fab fa-js"
+
+[[params.nav]]
+name = "TeX"
+tag = "TeX"
+icon = "fas"
+text = "TeX"
+
+[[params.nav]]
+name = "Fortran"
+tag = "fortran"
+icon = "fas"
+text = "F"
