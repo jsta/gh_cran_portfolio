@@ -1,22 +1,22 @@
-"","Package","Author","Title","URL"
-"1","cdlTools","Jonathan Lisic [cre],
+"Package","Author","Title","URL"
+"cdlTools","Jonathan Lisic [cre],
   Lu Chen [aut],
   Joseph Stachelek [ctb]","Tools to Download and Work with USDA Cropscape Data",NA
-"2","dams","Gopi Goteti [aut],
+"dams","Gopi Goteti [aut],
   Joseph Stachelek [aut, cre]","Dams in the United States from the National Inventory of Dams
 (NID)","https://github.com/jsta/dams"
-"3","dbhydroR","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","'DBHYDRO' Hydrologic and Water Quality Data","https://github.com/ropensci/dbhydroR"
-"4","ipdw","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Spatial Interpolation by Inverse Path Distance Weighting","https://www.github.com/jsta/ipdw"
-"5","LAGOSNE","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>),
+"dbhydroR","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","'DBHYDRO' Hydrologic and Water Quality Data","https://github.com/ropensci/dbhydroR"
+"ipdw","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Spatial Interpolation by Inverse Path Distance Weighting","https://www.github.com/jsta/ipdw"
+"LAGOSNE","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>),
   Samantha Oliver [aut] (<https://orcid.org/0000-0001-5668-1165>),
   Farzan Masrour [aut]","Interface to the Lake Multi-Scaled Geospatial and Temporal
 Database","https://github.com/cont-limno/LAGOSNE"
-"6","lakemorpho","Jeffrey W. Hollister [aut, cre],
+"lakemorpho","Jeffrey W. Hollister [aut, cre],
   Joseph Stachelek [ctb]","Lake Morphometry Metrics","http://www.github.com/jhollist/lakemorpho"
-"7","nesRdata","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","National Eutrophication Survey Data","https://github.com/jsta/nesRdata"
-"8","nhdR","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Tools for working with the National Hydrography Dataset","https://github.com/jsta/nhdR"
-"9","nlaR","Joseph Stachelek [aut, cre]","Interface to the National Lakes Assessment","https://github.com/jsta/nlaR"
-"10","rnoaa","Scott Chamberlain [aut, cre],
+"nesRdata","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","National Eutrophication Survey Data","https://github.com/jsta/nesRdata"
+"nhdR","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Tools for working with the National Hydrography Dataset","https://github.com/jsta/nhdR"
+"nlaR","Joseph Stachelek [aut, cre]","Interface to the National Lakes Assessment","https://github.com/jsta/nlaR"
+"rnoaa","Scott Chamberlain [aut, cre],
   Brooke Anderson [ctb],
   Maëlle Salmon [ctb],
   Adam Erickson [ctb],
@@ -25,50 +25,50 @@ Database","https://github.com/cont-limno/LAGOSNE"
   Alex Simmons [ctb],
   Karthik Ram [ctb],
   Hart Edmund [ctb]","'NOAA' Weather Data from R","https://github.com/ropensci/rnoaa"
-"11","rv","Jouni Kerman [aut],
+"rv","Jouni Kerman [aut],
   Joseph Stachelek [ctb, cre]","Simulation-Based Random Variable Objects","https://github.com/jsta/rv"
-"12","wikilake","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Scrape Lake Metadata Tables from Wikipedia","https://github.com/jsta/wikilake"
-"13","wql","Alan Jassby [aut],
+"wikilake","Joseph Stachelek [aut, cre] (<https://orcid.org/0000-0002-5924-2464>)","Scrape Lake Metadata Tables from Wikipedia","https://github.com/jsta/wikilake"
+"wql","Alan Jassby [aut],
   James Cloern [ctb],
   Joseph Stachelek [ctb, cre]","Exploring Water Quality Monitoring Data","https://github.com/jsta/wql"
-"14","r-raster-vector-geospatial",NA,"Data Carpentry: Introduction to Geospatial Raster and Vector Data with R","https://github.com/datacarpentry/r-raster-vector-geospatial"
-"15","data-packages",NA,"The State Of Data On CRAN: Discovering Good Data Packages","https://github.com/ropenscilabs/data-packages"
-"16","sfpolymorph",NA,"Calculate polygon shape metrics","https://github.com/jsta/sfpolymorph"
-"17","gshhg",NA,"A Global Self-consistent, Hierarchical, High-resolution Geography Database","https://github.com/jsta/gshhg"
-"18","glwdr",NA,"R client for the Global Lakes and Wetlands Database","https://github.com/jsta/glwdr"
-"19","externalrdata",NA,"Template for R packages that fetch, cache, and serve data from external sources","https://github.com/jsta/externalrdata"
-"20","streamnet",NA,"Morphology analysis of stream networks 🍃","https://github.com/jsta/streamnet"
-"21","cond2sal_shiny",NA,"Shiny app to convert conductivity to salinity","https://github.com/jsta/cond2sal_shiny"
-"22","limnology_models_data",NA,"Models and datasets for Limnology","https://github.com/jsta/limnology_models_data"
-"23","nml",NA,"An R package for parsing Fortran namelist files :tophat:","https://github.com/jsta/nml"
-"24","sparrow",NA,"SPAtially Referenced Regression on Watershed attributes","https://github.com/jsta/sparrow"
-"25","limnopapers",NA,"Twitter feed of newly published articles in limnology","https://github.com/jsta/limnopapers"
-"26","gssurgo",NA,"Python package enabling an open source gSSURGO workflow","https://github.com/jsta/gssurgo"
-"27","NES",NA,"The National Eutrophication Survey: lake characteristics and historical nutrient concentrations","https://github.com/ReproducibleQM/NES"
-"28","SpectralClustering4Regions",NA,"Creating multi-themed ecological regions for macroscale ecology: testing a flexible, repeatable, and accessible clustering method","https://github.com/cont-limno/SpectralClustering4Regions"
-"29","nsws",NA,"National Surface Water Survey Package","https://github.com/jsta/nsws"
-"30","mapview.addin",NA,"RStudio addin for viewing Spatial objects","https://github.com/jsta/mapview.addin"
-"31","dciR",NA,"Calculate Directional Connectivity Index without Matlab","https://github.com/jsta/dciR"
-"32","jsta",NA,"Personal function library","https://github.com/jsta/jsta"
-"33","irlgraph",NA,"Irregular Landscape Graphs to generate accumulated cost surfaces","https://github.com/jsta/irlgraph"
-"34","imagemagick_cheatsheet",NA,"Cheatsheet for the command line image editing program Imagemagick","https://github.com/jsta/imagemagick_cheatsheet"
-"35","schemeR",NA,"Visualize SQLite structure with R :neckbeard:","https://github.com/jsta/schemeR"
-"36","nla2012",NA,"Data package for the US EPA 2012 National Lakes Assessment","https://github.com/jhollist/nla2012"
-"37","nesR",NA,"Scrape Data from the National Eutrophication Survey","https://github.com/jsta/nesR"
-"38","lakemorpho_manuscript",NA,"repository containing manuscript describing the lakemorpho R package","https://github.com/jhollist/lakemorpho_manuscript"
-"39","dataflowchl",NA,"Improved estimation of phytoplankton abundance and fine-scale water quality features via simultaneous discrete and semi-continuous surveys","https://github.com/jsta/dataflowchl"
-"40","DataflowR",NA,"Data handling and interpolation for underway water quality monitoring :speedboat: :dash: :sweat_drops::","https://github.com/jsta/DataflowR"
-"41","beamer-lake-fig",NA,"Collection of lake diagrams for use in LaTeX documents :page_with_curl:","https://github.com/jsta/beamer-lake-fig"
-"42","speCluster",NA,"Spectral Clustering in R","https://github.com/cont-limno/speCluster"
-"43","LAGOSNEgis",NA,"Extra functions to interact with the GIS module of LAGOSNE","https://github.com/jsta/LAGOSNEgis"
-"44","peatcollapse_methods",NA,"In-situ simulation of sea-level rise impacts on coastal wetlands using a flow-through mesocosm approach","https://github.com/jsta/peatcollapse_methods"
-"45","wikiprojectlakes",NA,"Create a Wikipedia Lake Page","https://github.com/GLEON/wikiprojectlakes"
-"46","openbugs",NA,"Source code mirror for openbugs","https://github.com/jsta/openbugs"
-"47","swatr",NA,"A multi-OS implementation of the TAMU SWAT model","https://github.com/jsta/swatr"
-"48","nlmpy",NA,"A Python package to create neutral landscape models [pip mirror]","https://github.com/jsta/nlmpy"
-"49","nes_connectivity_p",NA,"Does Freshwater Connectivity Influence Phosphorus Retention in Lakes?","https://github.com/jsta/nes_connectivity_p"
-"50","MANAGE",NA,"Measured Annual Nutrient loads from AGricultural Environments","https://github.com/jsta/MANAGE"
-"51","2018_ASLO",NA,"Does Lake and Stream Connectivity Control Phosphorus Retention in Lakes?","https://github.com/jsta/2018_ASLO"
-"52","aslo_tweets",NA," analyzing tweets about ASLO 2018","https://github.com/jsta/aslo_tweets"
-"53","lagos_ag",NA,"Use more detailed Ag data to improve lake TP and TN models :corn: :cow:","https://github.com/jsta/lagos_ag"
-"54","paper_template",NA,"Minimal Makefile-driven paper template ","https://github.com/jsta/paper_template"
+"r-raster-vector-geospatial",NA,"Data Carpentry: Introduction to Geospatial Raster and Vector Data with R","https://github.com/datacarpentry/r-raster-vector-geospatial"
+"data-packages",NA,"The State Of Data On CRAN: Discovering Good Data Packages","https://github.com/ropenscilabs/data-packages"
+"sfpolymorph",NA,"Calculate polygon shape metrics","https://github.com/jsta/sfpolymorph"
+"gshhg",NA,"A Global Self-consistent, Hierarchical, High-resolution Geography Database","https://github.com/jsta/gshhg"
+"glwdr",NA,"R client for the Global Lakes and Wetlands Database","https://github.com/jsta/glwdr"
+"externalrdata",NA,"Template for R packages that fetch, cache, and serve data from external sources","https://github.com/jsta/externalrdata"
+"streamnet",NA,"Morphology analysis of stream networks 🍃","https://github.com/jsta/streamnet"
+"cond2sal_shiny",NA,"Shiny app to convert conductivity to salinity","https://github.com/jsta/cond2sal_shiny"
+"limnology_models_data",NA,"Models and datasets for Limnology","https://github.com/jsta/limnology_models_data"
+"nml",NA,"An R package for parsing Fortran namelist files :tophat:","https://github.com/jsta/nml"
+"sparrow",NA,"SPAtially Referenced Regression on Watershed attributes","https://github.com/jsta/sparrow"
+"limnopapers",NA,"Twitter feed of newly published articles in limnology","https://github.com/jsta/limnopapers"
+"gssurgo",NA,"Python package enabling an open source gSSURGO workflow","https://github.com/jsta/gssurgo"
+"NES",NA,"The National Eutrophication Survey: lake characteristics and historical nutrient concentrations","https://github.com/ReproducibleQM/NES"
+"SpectralClustering4Regions",NA,"Creating multi-themed ecological regions for macroscale ecology: testing a flexible, repeatable, and accessible clustering method","https://github.com/cont-limno/SpectralClustering4Regions"
+"nsws",NA,"National Surface Water Survey Package","https://github.com/jsta/nsws"
+"mapview.addin",NA,"RStudio addin for viewing Spatial objects","https://github.com/jsta/mapview.addin"
+"dciR",NA,"Calculate Directional Connectivity Index without Matlab","https://github.com/jsta/dciR"
+"jsta",NA,"Personal function library","https://github.com/jsta/jsta"
+"irlgraph",NA,"Irregular Landscape Graphs to generate accumulated cost surfaces","https://github.com/jsta/irlgraph"
+"imagemagick_cheatsheet",NA,"Cheatsheet for the command line image editing program Imagemagick","https://github.com/jsta/imagemagick_cheatsheet"
+"schemeR",NA,"Visualize SQLite structure with R :neckbeard:","https://github.com/jsta/schemeR"
+"nla2012",NA,"Data package for the US EPA 2012 National Lakes Assessment","https://github.com/jhollist/nla2012"
+"nesR",NA,"Scrape Data from the National Eutrophication Survey","https://github.com/jsta/nesR"
+"lakemorpho_manuscript",NA,"repository containing manuscript describing the lakemorpho R package","https://github.com/jhollist/lakemorpho_manuscript"
+"dataflowchl",NA,"Improved estimation of phytoplankton abundance and fine-scale water quality features via simultaneous discrete and semi-continuous surveys","https://github.com/jsta/dataflowchl"
+"DataflowR",NA,"Data handling and interpolation for underway water quality monitoring :speedboat: :dash: :sweat_drops::","https://github.com/jsta/DataflowR"
+"beamer-lake-fig",NA,"Collection of lake diagrams for use in LaTeX documents :page_with_curl:","https://github.com/jsta/beamer-lake-fig"
+"speCluster",NA,"Spectral Clustering in R","https://github.com/cont-limno/speCluster"
+"LAGOSNEgis",NA,"Extra functions to interact with the GIS module of LAGOSNE","https://github.com/jsta/LAGOSNEgis"
+"peatcollapse_methods",NA,"In-situ simulation of sea-level rise impacts on coastal wetlands using a flow-through mesocosm approach","https://github.com/jsta/peatcollapse_methods"
+"wikiprojectlakes",NA,"Create a Wikipedia Lake Page","https://github.com/GLEON/wikiprojectlakes"
+"openbugs",NA,"Source code mirror for openbugs","https://github.com/jsta/openbugs"
+"swatr",NA,"A multi-OS implementation of the TAMU SWAT model","https://github.com/jsta/swatr"
+"nlmpy",NA,"A Python package to create neutral landscape models [pip mirror]","https://github.com/jsta/nlmpy"
+"nes_connectivity_p",NA,"Does Freshwater Connectivity Influence Phosphorus Retention in Lakes?","https://github.com/jsta/nes_connectivity_p"
+"MANAGE",NA,"Measured Annual Nutrient loads from AGricultural Environments","https://github.com/jsta/MANAGE"
+"2018_ASLO",NA,"Does Lake and Stream Connectivity Control Phosphorus Retention in Lakes?","https://github.com/jsta/2018_ASLO"
+"aslo_tweets",NA," analyzing tweets about ASLO 2018","https://github.com/jsta/aslo_tweets"
+"lagos_ag",NA,"Use more detailed Ag data to improve lake TP and TN models :corn: :cow:","https://github.com/jsta/lagos_ag"
+"paper_template",NA,"Minimal Makefile-driven paper template ","https://github.com/jsta/paper_template"

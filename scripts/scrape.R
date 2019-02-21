@@ -27,4 +27,8 @@ res <- bind_rows(projects_cran, projects_gh) %>%
   filter(!stringr::str_detect(Package, c(".io$"))) %>%
   filter(!stringr::str_detect(Package, c("Notes$")))
 
-write.csv(res, "static/projects.csv")
+write.csv(res, "static/projects.csv", row.names = FALSE)
+write(paste0("static/logos/", res$Package, ".svg"), 
+      file.path("static", "projects_names.txt"))
+# res <- read.csv("static/projects.csv", stringsAsFactors = FALSE)
+
