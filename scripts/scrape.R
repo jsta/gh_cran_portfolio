@@ -26,3 +26,5 @@ res <- bind_rows(projects_cran, projects_gh) %>%
   filter(!stringr::str_detect(Title, "Reviews")) %>%
   filter(!stringr::str_detect(Package, c(".io$"))) %>%
   filter(!stringr::str_detect(Package, c("Notes$")))
+
+write.csv(res, "static/projects.csv")
