@@ -17,7 +17,7 @@ blogdown::build_site() # then push to GH
 
 ### Add project
 
-Create svg icon using [scripts/hexsticker.R](scripts/hexsticker.R)
+Add entry in [static/projects_names.txt](static/projects_names.txt)
 
 Add entry in [data/links.yml](data/links.yml)
 
