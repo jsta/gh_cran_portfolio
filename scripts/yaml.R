@@ -1,16 +1,9 @@
 library(yaml)
-library(dplyr)
+suppressMessages(library(dplyr))
 
 dt_raw      <- read.csv("static/projects.csv", stringsAsFactors = FALSE)
 proj_ignore <- read.csv("static/proj_ignore.csv", stringsAsFactors = FALSE)
 yl          <- yaml::read_yaml("data/links.yml")
-
-# name
-# url 
-# img
-# bg_color
-# tile_tooltip
-# tags
 
 dt <- dt_raw %>% 
   filter(!is.na(tags)) %>%
@@ -21,17 +14,27 @@ dt <- dt_raw %>%
   filter(!(name %in% proj_ignore$name)) %>%
   mutate(img = paste0("logos/", name, ".svg")) %>%
   select(name, url, img, bg_color, tile_tooltip, tags) %>%
+  # mutate_all(shQuote) %>%
   group_by(tags) %>%
-  sample_n(1)
+  sample_n(1) %>%
+  ungroup() %>%
+  mutate(tags = case_when(tags == "R" ~ "rstats", 
+                          tags == "Python" ~ "python",
+         TRUE ~ tags))
 
-dt <- dt[1:2,]
-dt_names <- names(dt)
-n_proj <- length(unique(dt$name))
+# dt$tags <- purrr::flatten(apply(dt, 1, function(x) list(x["tags"][[1]])))
+# dt[1,"tags"][[1]] <- purrr::flatten(list(dt[1,"tags"][[1]], dt[1,"tags"][[1]]))
+# dt[1,"tags"] <- I(list(c(dt[1,"tags"][[1]], dt[1,"tags"][[1]]))[[1]])
 
-test <- as.data.frame(t(dt), stringsAsFactors = FALSE) %>% 
-  purrr::flatten() %>%
-  setNames(rep(dt_names, n_proj))
+res <- as.yaml(dt, column.major = FALSE)
 
-identical(test, yl[[1]][[2]])
+# ---- asdf ----
+write(res, "data/links.yml")
 
-yaml::write_yaml(dt, "data/links.yml")
+yl          <- yaml::read_yaml("data/links.yml")
+for(i in seq_len(length(yl))){
+  yl[[i]]$tags <- list(yl[[i]]$tags)
+}
+
+write("tiles:", "data/links.yml")
+write(as.yaml(yl), "data/links.yml", append = TRUE)

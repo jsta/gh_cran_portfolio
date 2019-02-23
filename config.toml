@@ -51,3 +51,9 @@ name = "C++"
 tag = "cpp"
 icon = "fas"
 text = "C++"
+
+[[params.nav]]
+name = "Matlab"
+tag = "MATLAB"
+icon = "fas"
+text = "M"

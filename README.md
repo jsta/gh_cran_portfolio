@@ -2,17 +2,11 @@
 
 ## Usage
 
-### Preview site
-
-```r 
-blogdown::serve_site()
-
-```
-
 ### Build site
 
 ```r
-blogdown::build_site() # then push to GH
+blogdown::build_site() 
+blogdown::serve_site() # preview site
 ```
 
 ### Add project

@@ -1,27 +1,31 @@
 tiles:
-- name: smwrQW
-  url: https://github.com/USGS-R/smwrQW
-  img: logos/smwrQW.svg
-  bg_color: '#005483'
-  txt_color: '#ffffff'
+- name: dciR
+  url: https://github.com/jsta/dciR
+  img: logos/dciR.svg
+  bg_color: '#e16737'
+  tile_tooltip: Calculate Directional Connectivity Index without Matlab
+  tags:
+  - MATLAB
+- name: limnopapers
+  url: https://github.com/jsta/limnopapers
+  img: logos/limnopapers.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Twitter feed of newly published articles in limnology
+  tags:
+  - python
+- name: dams
+  url: https://github.com/jsta/dams
+  img: logos/dams.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Dams in the United States from the National Inventory of Dams
+    (NID)
   tags:
   - rstats
-  - fortran
-- name: nhdR
-  url: https://github.com/jsta/nhdR
-  img: logos/nhdR.svg
-  bg_color: '#ffffff'
-  txt_color: '#000000'
-  tile_tooltip: This is a tooltip. Is this a realistically long tooltip? Is this a
-    realistically long tooltip?
-  tags: rstats
-- name: streamnet
-  url: https://github.com/jsta/streamnet
-  img: logos/streamnet.svg
-  bg_color: '#ffffff'
-  txt_color: '#000000'
-  tile_tooltip: This is a tooltip. Is this a realistically long tooltip? Is this a
-    realistically long tooltip?
-  tags: 
-  - rstats
-  - cpp
+- name: lakemorpho_manuscript
+  url: https://github.com/jhollist/lakemorpho_manuscript
+  img: logos/lakemorpho_manuscript.svg
+  bg_color: '#3D6117'
+  tile_tooltip: repository containing manuscript describing the lakemorpho R package
+  tags:
+  - TeX
+
