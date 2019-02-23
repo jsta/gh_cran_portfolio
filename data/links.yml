@@ -1,17 +1,27 @@
 tiles:
-
-- name: "smwrWQ"
-  url: "https://github.com/USGS-R/smwrQW"
-  img: "logos/smwrWQ.svg"
-  bg_color: "#005483"
-  txt_color: "#ffffff"
-  tags: ["rstats", "fortran"]
-
-- name: "nhdR"
-  url: "https://github.com/jsta/nhdR"
-  img: "logos/nhdR.svg"
-  bg_color: "#ffffff"
-  txt_color: "#000000"
-  tile_tooltip: "This is a tooltip. Is this a realistically long tooltip? Is this a realistically long tooltip?"
-  tags: ["rstats"]
-  
+- name: smwrQW
+  url: https://github.com/USGS-R/smwrQW
+  img: logos/smwrQW.svg
+  bg_color: '#005483'
+  txt_color: '#ffffff'
+  tags:
+  - rstats
+  - fortran
+- name: nhdR
+  url: https://github.com/jsta/nhdR
+  img: logos/nhdR.svg
+  bg_color: '#ffffff'
+  txt_color: '#000000'
+  tile_tooltip: This is a tooltip. Is this a realistically long tooltip? Is this a
+    realistically long tooltip?
+  tags: rstats
+- name: streamnet
+  url: https://github.com/jsta/streamnet
+  img: logos/streamnet.svg
+  bg_color: '#ffffff'
+  txt_color: '#000000'
+  tile_tooltip: This is a tooltip. Is this a realistically long tooltip? Is this a
+    realistically long tooltip?
+  tags: 
+  - rstats
+  - cpp

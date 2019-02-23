@@ -45,3 +45,9 @@ name = "Fortran"
 tag = "fortran"
 icon = "fas"
 text = "F"
+
+[[params.nav]]
+name = "C++"
+tag = "cpp"
+icon = "fas"
+text = "C++"

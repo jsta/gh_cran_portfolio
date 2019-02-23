@@ -1,35 +1,37 @@
-library(reticulate)
-# toml <- import("toml")
-py   <- import_builtins()
-pyyaml <- import("yaml")
 library(yaml)
+library(dplyr)
 
-with(py$open("data/links.yml", "r") %as% file, {
-  yl <- pyyaml$load(file)
-})
+dt_raw      <- read.csv("static/projects.csv", stringsAsFactors = FALSE)
+proj_ignore <- read.csv("static/proj_ignore.csv", stringsAsFactors = FALSE)
+yl          <- yaml::read_yaml("data/links.yml")
 
-yl <- c(yl$tiles, list(list(
-  name = project_name,
-  url = project_url,
-  img = file.path("logos", basename(outpath)),
-  tags = project_tag)))
+# name
+# url 
+# img
+# bg_color
+# tile_tooltip
+# tags
 
-# TODO need to figure out how to `cat` yaml strings 
-writeLines("tiles:", con = "data/links.yml")
-system("echo - >> data/links.yml")
-lapply(yl, 
-       function(x) {
-         # x <- yl[[1]]
-         # yaml::as.yaml(x)
-         cat(
-           gsub("\n", "\n\t", paste0("\t", 
-                                     yaml::as.yaml(x, 
-                                                   handlers = list(character = function(x) quote(x)))
-           )), 
-           file = "data/links.yml", append = TRUE)
-         print(yaml::as.yaml(x))
-         system2("echo", "'' >> data/links.yml")
-         system2("echo", "'-' >> data/links.yml")
-       })
+dt <- dt_raw %>% 
+  filter(!is.na(tags)) %>%
+  filter(!(tags %in% proj_ignore$tags)) %>%
+  rename(name = Package, 
+  url = URL, 
+  tile_tooltip = Title) %>%
+  filter(!(name %in% proj_ignore$name)) %>%
+  mutate(img = paste0("logos/", name, ".svg")) %>%
+  select(name, url, img, bg_color, tile_tooltip, tags) %>%
+  group_by(tags) %>%
+  sample_n(1)
 
-yaml::write_yaml(yl, "data/links.yml")
+dt <- dt[1:2,]
+dt_names <- names(dt)
+n_proj <- length(unique(dt$name))
+
+test <- as.data.frame(t(dt), stringsAsFactors = FALSE) %>% 
+  purrr::flatten() %>%
+  setNames(rep(dt_names, n_proj))
+
+identical(test, yl[[1]][[2]])
+
+yaml::write_yaml(dt, "data/links.yml")
