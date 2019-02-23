@@ -14,19 +14,18 @@ dt <- dt_raw %>%
   filter(!(name %in% proj_ignore$name)) %>%
   mutate(img = paste0("logos/", name, ".svg")) %>%
   select(name, url, img, bg_color, tile_tooltip, tags) %>%
-  # mutate_all(shQuote) %>%
-  group_by(tags) %>%
-  sample_n(1) %>%
-  ungroup() %>%
+  # group_by(tags) %>% sample_n(1) %>% ungroup() %>%
   mutate(tags = case_when(tags == "R" ~ "rstats", 
                           tags == "Python" ~ "python",
                           tags == "MATLAB" ~ "matlab",
                           tags == "TeX" ~ "tex",
          TRUE ~ tags))
 
-# dt$tags <- purrr::flatten(apply(dt, 1, function(x) list(x["tags"][[1]])))
-# dt[1,"tags"][[1]] <- purrr::flatten(list(dt[1,"tags"][[1]], dt[1,"tags"][[1]]))
-# dt[1,"tags"] <- I(list(c(dt[1,"tags"][[1]], dt[1,"tags"][[1]]))[[1]])
+# TODO: resolve conflicts with duplicate entries
+yl_dt <- dplyr::bind_rows(yl[[1]])
+# test if dt entry tags in yl_dt are longer or not
+
+# TODO: read custom non-scraped project info from file
 
 res <- as.yaml(dt, column.major = FALSE)
 
