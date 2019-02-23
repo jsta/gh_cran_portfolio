@@ -36,7 +36,7 @@ icon = "fab fa-js"
 
 [[params.nav]]
 name = "TeX"
-tag = "TeX"
+tag = "tex"
 icon = "fas"
 text = "TeX"
 
@@ -54,6 +54,6 @@ text = "C++"
 
 [[params.nav]]
 name = "Matlab"
-tag = "MATLAB"
+tag = "matlab"
 icon = "fas"
 text = "M"

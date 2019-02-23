@@ -5,20 +5,19 @@ tiles:
   bg_color: '#e16737'
   tile_tooltip: Calculate Directional Connectivity Index without Matlab
   tags:
-  - MATLAB
-- name: limnopapers
-  url: https://github.com/jsta/limnopapers
-  img: logos/limnopapers.svg
+  - matlab
+- name: gssurgo
+  url: https://github.com/jsta/gssurgo
+  img: logos/gssurgo.svg
   bg_color: '#3572A5'
-  tile_tooltip: Twitter feed of newly published articles in limnology
+  tile_tooltip: Python package enabling an open source gSSURGO workflow
   tags:
   - python
-- name: dams
-  url: https://github.com/jsta/dams
-  img: logos/dams.svg
+- name: jsta
+  url: https://github.com/jsta/jsta
+  img: logos/jsta.svg
   bg_color: '#198CE7'
-  tile_tooltip: Dams in the United States from the National Inventory of Dams
-    (NID)
+  tile_tooltip: Personal function library
   tags:
   - rstats
 - name: lakemorpho_manuscript
@@ -27,5 +26,5 @@ tiles:
   bg_color: '#3D6117'
   tile_tooltip: repository containing manuscript describing the lakemorpho R package
   tags:
-  - TeX
+  - tex
 

@@ -20,6 +20,8 @@ dt <- dt_raw %>%
   ungroup() %>%
   mutate(tags = case_when(tags == "R" ~ "rstats", 
                           tags == "Python" ~ "python",
+                          tags == "MATLAB" ~ "matlab",
+                          tags == "TeX" ~ "tex",
          TRUE ~ tags))
 
 # dt$tags <- purrr::flatten(apply(dt, 1, function(x) list(x["tags"][[1]])))
