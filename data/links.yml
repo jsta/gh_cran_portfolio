@@ -12,6 +12,6 @@ tiles:
   img: "logos/nhdR.svg"
   bg_color: "#ffffff"
   txt_color: "#000000"
-  tooltip: "This is a tooltip. Is this a realistically long tooltip?"
+  tile_tooltip: "This is a tooltip. Is this a realistically long tooltip? Is this a realistically long tooltip?"
   tags: ["rstats"]
   

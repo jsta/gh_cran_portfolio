@@ -4267,8 +4267,12 @@ readers do not read off random characters that represent icons */
     background: #333;
     background: rgba(0,0,0,.8);
     border-radius: 5px;
+    font-size:12px;
     color: #fff;
-    content: attr(data-tooltip);
+    z-index: 1;
+    left: 16%;
+    top: 25%;
+    content: attr(data-tile_tooltip);
     position: absolute;
     width: 140px;
  }
@@ -4285,7 +4289,10 @@ readers do not read off random characters that represent icons */
  
  .icon{display:block;opacity:.6;transition:background-color .3s,opacity .3s,-webkit-mask-size .3s;-webkit-mask-position:50% 15px;-webkit-mask-repeat:no-repeat;-webkit-mask-size:23px}
  
- .icon:hover{opacity:1}.post-domain,.pre-domain{font-size:10px;position:absolute;text-shadow:-1px 0 rgba(255,255,255,.8),0 1px rgba(255,255,255,.8),1px 0 rgba(255,255,255,.8),0 -1px rgba(255,255,255,.8)}
+ .icon:hover{opacity:1}.post-domain,.pre-domain{
+   font-size:10px;
+   position:absolute;
+   text-shadow:-1px 0 rgba(255,255,255,.8),0 1px rgba(255,255,255,.8),1px 0 rgba(255,255,255,.8),0 -1px rgba(255,255,255,.8)}
  
  .pre-domain{top:5px;left:0}
 
