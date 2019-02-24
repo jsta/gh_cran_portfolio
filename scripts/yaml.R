@@ -11,6 +11,9 @@ dt <- dt_raw %>%
   rename(name = Package, 
   url = URL, 
   tile_tooltip = Title) %>%
+  mutate(tile_tooltip = case_when(nchar(tile_tooltip) > 85 ~ 
+                                    paste0(strtrim(tile_tooltip, 85), "..."), 
+         TRUE ~ tile_tooltip)) %>%
   filter(!(name %in% proj_ignore$name)) %>%
   mutate(img = paste0("logos/", name, ".svg")) %>%
   select(name, url, img, bg_color, tile_tooltip, tags) %>%

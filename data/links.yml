@@ -181,7 +181,7 @@ tiles:
   img: logos/NES.svg
   bg_color: '#3D6117'
   tile_tooltip: 'The National Eutrophication Survey: lake characteristics and historical
-    nutrient concentrations'
+    nutrient conc...'
   tags:
   - tex
 - name: SpectralClustering4Regions
@@ -189,7 +189,7 @@ tiles:
   img: logos/SpectralClustering4Regions.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Creating multi-themed ecological regions for macroscale ecology:
-    testing a flexible, repeatable, and accessible clustering method'
+    testing a flexible, ...'
   tags:
   - rstats
 - name: nsws
@@ -241,13 +241,6 @@ tiles:
   tile_tooltip: 'Visualize SQLite structure with R :neckbeard:'
   tags:
   - rstats
-- name: nla2012
-  url: https://github.com/jhollist/nla2012
-  img: logos/nla2012.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Data package for the US EPA 2012 National Lakes Assessment
-  tags:
-  - rstats
 - name: nesR
   url: https://github.com/jsta/nesR
   img: logos/nesR.svg
@@ -267,7 +260,7 @@ tiles:
   img: logos/dataflowchl.svg
   bg_color: '#3D6117'
   tile_tooltip: Improved estimation of phytoplankton abundance and fine-scale water
-    quality features via simultaneous discrete and semi-continuous surveys
+    quality features ...
   tags:
   - tex
 - name: samples-rmarkdown-metropolis
@@ -282,7 +275,7 @@ tiles:
   img: logos/DataflowR.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Data handling and interpolation for underway water quality monitoring
-    :speedboat: :dash: :sweat_drops::'
+    :speedboat: :da...'
   tags:
   - rstats
 - name: beamer-lake-fig
@@ -306,29 +299,14 @@ tiles:
   tile_tooltip: Extra functions to interact with the GIS module of LAGOSNE
   tags:
   - rstats
-- name: brms
-  url: https://github.com/jsta/brms
-  img: logos/brms.svg
-  bg_color: '#198CE7'
-  tile_tooltip: brms R package for Bayesian generalized non-linear multilevel models
-    using Stan
-  tags:
-  - rstats
 - name: peatcollapse_methods
   url: https://github.com/jsta/peatcollapse_methods
   img: logos/peatcollapse_methods.svg
   bg_color: '#3D6117'
   tile_tooltip: In-situ simulation of sea-level rise impacts on coastal wetlands using
-    a flow-through mesocosm approach
+    a flow-through...
   tags:
   - tex
-- name: bayesplot
-  url: https://github.com/jsta/bayesplot
-  img: logos/bayesplot.svg
-  bg_color: '#198CE7'
-  tile_tooltip: bayesplot R package for plotting Bayesian models
-  tags:
-  - rstats
 - name: nes_connectivity_p
   url: https://github.com/jsta/nes_connectivity_p
   img: logos/nes_connectivity_p.svg
@@ -341,22 +319,6 @@ tiles:
   img: logos/MANAGE.svg
   bg_color: '#198CE7'
   tile_tooltip: Measured Annual Nutrient loads from AGricultural Environments
-  tags:
-  - rstats
-- name: 2018_ASLO
-  url: https://github.com/jsta/2018_ASLO
-  img: logos/2018_ASLO.svg
-  bg_color: '#3D6117'
-  tile_tooltip: Does Lake and Stream Connectivity Control Phosphorus Retention in
-    Lakes?
-  tags:
-  - tex
-- name: lagos_ag
-  url: https://github.com/jsta/lagos_ag
-  img: logos/lagos_ag.svg
-  bg_color: '#198CE7'
-  tile_tooltip: 'Use more detailed Ag data to improve lake TP and TN models :corn:
-    :cow:'
   tags:
   - rstats
 

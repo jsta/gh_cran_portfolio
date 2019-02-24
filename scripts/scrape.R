@@ -18,6 +18,7 @@ projects_gh     <-  projects_gh_raw %>%
   select(-language) %>%
   arrange(desc(stargazers_count)) %>%
   filter(!is_archived) %>%
+  filter(!is_private) %>%
   # filter(!is_fork) %>%
   filter(stargazers_count > 0) %>%
   mutate(URL = paste0("https://github.com/", name)) %>%

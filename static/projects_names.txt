@@ -34,7 +34,6 @@ static/logos/irlgraph.svg
 static/logos/ReScience-submission.svg
 static/logos/imagemagick_cheatsheet.svg
 static/logos/schemeR.svg
-static/logos/nla2012.svg
 static/logos/nesR.svg
 static/logos/lakemorpho_manuscript.svg
 static/logos/dataflowchl.svg
@@ -44,17 +43,12 @@ static/logos/beamer-lake-fig.svg
 static/logos/speCluster.svg
 static/logos/riverdist.svg
 static/logos/LAGOSNEgis.svg
-static/logos/brms.svg
 static/logos/peatcollapse_methods.svg
 static/logos/wikiprojectlakes.svg
 static/logos/openbugs.svg
 static/logos/fabm.svg
-static/logos/bayesplot.svg
 static/logos/swatr.svg
-static/logos/nlmpy.svg
 static/logos/nes_connectivity_p.svg
 static/logos/MANAGE.svg
-static/logos/2018_ASLO.svg
 static/logos/aslo_tweets.svg
-static/logos/lagos_ag.svg
 static/logos/paper_template.svg
