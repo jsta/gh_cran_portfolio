@@ -1,9 +1,11 @@
+tiles:
 - name: cdlTools
   url: .na.character
   img: logos/cdlTools.svg
   bg_color: '#198CE7'
   tile_tooltip: Tools to Download and Work with USDA Cropscape Data
-  tags: rstats
+  tags:
+  - rstats
 - name: dams
   url: https://github.com/jsta/dams
   img: logos/dams.svg
@@ -11,19 +13,24 @@
   tile_tooltip: |-
     Dams in the United States from the National Inventory of Dams
     (NID)
-  tags: rstats
+  tags:
+  - rstats
+  - cpp
 - name: dbhydroR
   url: https://github.com/ropensci/dbhydroR
   img: logos/dbhydroR.svg
   bg_color: '#198CE7'
   tile_tooltip: '''DBHYDRO'' Hydrologic and Water Quality Data'
-  tags: rstats
+  tags:
+  - rstats
+  - cpp
 - name: ipdw
   url: https://www.github.com/jsta/ipdw
   img: logos/ipdw.svg
   bg_color: '#198CE7'
   tile_tooltip: Spatial Interpolation by Inverse Path Distance Weighting
-  tags: rstats
+  tags:
+  - rstats
 - name: LAGOSNE
   url: https://github.com/cont-limno/LAGOSNE
   img: logos/LAGOSNE.svg
@@ -31,280 +38,325 @@
   tile_tooltip: |-
     Interface to the Lake Multi-Scaled Geospatial and Temporal
     Database
-  tags: rstats
+  tags:
+  - rstats
 - name: lakemorpho
   url: http://www.github.com/jhollist/lakemorpho
   img: logos/lakemorpho.svg
   bg_color: '#198CE7'
   tile_tooltip: Lake Morphometry Metrics
-  tags: rstats
+  tags:
+  - rstats
 - name: nesRdata
   url: https://github.com/jsta/nesRdata
   img: logos/nesRdata.svg
   bg_color: '#198CE7'
   tile_tooltip: National Eutrophication Survey Data
-  tags: rstats
+  tags:
+  - rstats
 - name: nhdR
   url: https://github.com/jsta/nhdR
   img: logos/nhdR.svg
   bg_color: '#198CE7'
   tile_tooltip: Tools for working with the National Hydrography Dataset
-  tags: rstats
+  tags:
+  - rstats
 - name: nlaR
   url: https://github.com/jsta/nlaR
   img: logos/nlaR.svg
   bg_color: '#198CE7'
   tile_tooltip: Interface to the National Lakes Assessment
-  tags: rstats
+  tags:
+  - rstats
 - name: rnoaa
   url: https://github.com/ropensci/rnoaa
   img: logos/rnoaa.svg
   bg_color: '#198CE7'
   tile_tooltip: '''NOAA'' Weather Data from R'
-  tags: rstats
+  tags:
+  - rstats
 - name: rv
   url: https://github.com/jsta/rv
   img: logos/rv.svg
   bg_color: '#198CE7'
   tile_tooltip: Simulation-Based Random Variable Objects
-  tags: rstats
+  tags:
+  - rstats
 - name: wikilake
   url: https://github.com/jsta/wikilake
   img: logos/wikilake.svg
   bg_color: '#198CE7'
   tile_tooltip: Scrape Lake Metadata Tables from Wikipedia
-  tags: rstats
+  tags:
+  - rstats
 - name: wql
   url: https://github.com/jsta/wql
   img: logos/wql.svg
   bg_color: '#198CE7'
   tile_tooltip: Exploring Water Quality Monitoring Data
-  tags: rstats
+  tags:
+  - rstats
 - name: r-raster-vector-geospatial
   url: https://github.com/datacarpentry/r-raster-vector-geospatial
   img: logos/r-raster-vector-geospatial.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Data Carpentry: Introduction to Geospatial Raster and Vector Data
     with R'
-  tags: rstats
+  tags:
+  - rstats
 - name: sfpolymorph
   url: https://github.com/jsta/sfpolymorph
   img: logos/sfpolymorph.svg
   bg_color: '#198CE7'
   tile_tooltip: Calculate polygon shape metrics
-  tags: rstats
+  tags:
+  - rstats
 - name: gshhg
   url: https://github.com/jsta/gshhg
   img: logos/gshhg.svg
   bg_color: '#198CE7'
   tile_tooltip: A Global Self-consistent, Hierarchical, High-resolution Geography
     Database
-  tags: rstats
+  tags:
+  - rstats
 - name: glwdr
   url: https://github.com/jsta/glwdr
   img: logos/glwdr.svg
   bg_color: '#198CE7'
   tile_tooltip: R client for the Global Lakes and Wetlands Database
-  tags: rstats
+  tags:
+  - rstats
 - name: externalrdata
   url: https://github.com/jsta/externalrdata
   img: logos/externalrdata.svg
   bg_color: '#198CE7'
   tile_tooltip: Template for R packages that fetch, cache, and serve data from external
     sources
-  tags: rstats
+  tags:
+  - rstats
 - name: streamnet
   url: https://github.com/jsta/streamnet
   img: logos/streamnet.svg
   bg_color: '#198CE7'
   tile_tooltip: "Morphology analysis of stream networks \U0001F343"
-  tags: rstats
+  tags:
+  - rstats
 - name: cond2sal_shiny
   url: https://github.com/jsta/cond2sal_shiny
   img: logos/cond2sal_shiny.svg
   bg_color: '#198CE7'
   tile_tooltip: Shiny app to convert conductivity to salinity
-  tags: rstats
+  tags:
+  - rstats
 - name: nml
   url: https://github.com/jsta/nml
   img: logos/nml.svg
   bg_color: '#198CE7'
   tile_tooltip: 'An R package for parsing Fortran namelist files :tophat:'
-  tags: rstats
+  tags:
+  - rstats
 - name: sparrow
   url: https://github.com/jsta/sparrow
   img: logos/sparrow.svg
   bg_color: '#198CE7'
   tile_tooltip: SPAtially Referenced Regression on Watershed attributes
-  tags: rstats
+  tags:
+  - rstats
 - name: limnopapers
   url: https://github.com/jsta/limnopapers
   img: logos/limnopapers.svg
   bg_color: '#3572A5'
   tile_tooltip: Twitter feed of newly published articles in limnology
-  tags: python
+  tags:
+  - python
 - name: gssurgo
   url: https://github.com/jsta/gssurgo
   img: logos/gssurgo.svg
   bg_color: '#3572A5'
   tile_tooltip: Python package enabling an open source gSSURGO workflow
-  tags: python
+  tags:
+  - python
 - name: NES
   url: https://github.com/ReproducibleQM/NES
   img: logos/NES.svg
   bg_color: '#3D6117'
   tile_tooltip: 'The National Eutrophication Survey: lake characteristics and historical
     nutrient concentrations'
-  tags: tex
+  tags:
+  - tex
 - name: SpectralClustering4Regions
   url: https://github.com/cont-limno/SpectralClustering4Regions
   img: logos/SpectralClustering4Regions.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Creating multi-themed ecological regions for macroscale ecology:
     testing a flexible, repeatable, and accessible clustering method'
-  tags: rstats
+  tags:
+  - rstats
 - name: nsws
   url: https://github.com/jsta/nsws
   img: logos/nsws.svg
   bg_color: '#198CE7'
   tile_tooltip: National Surface Water Survey Package
-  tags: rstats
+  tags:
+  - rstats
 - name: mapview.addin
   url: https://github.com/jsta/mapview.addin
   img: logos/mapview.addin.svg
   bg_color: '#198CE7'
   tile_tooltip: RStudio addin for viewing Spatial objects
-  tags: rstats
+  tags:
+  - rstats
 - name: dciR
   url: https://github.com/jsta/dciR
   img: logos/dciR.svg
   bg_color: '#e16737'
   tile_tooltip: Calculate Directional Connectivity Index without Matlab
-  tags: matlab
+  tags:
+  - matlab
 - name: irlgraph
   url: https://github.com/jsta/irlgraph
   img: logos/irlgraph.svg
   bg_color: '#198CE7'
   tile_tooltip: Irregular Landscape Graphs to generate accumulated cost surfaces
-  tags: rstats
+  tags:
+  - rstats
 - name: ReScience-submission
   url: https://github.com/jsta/ReScience-submission
   img: logos/ReScience-submission.svg
   bg_color: '#3D6117'
   tile_tooltip: ReScience submission repository
-  tags: tex
+  tags:
+  - tex
 - name: imagemagick_cheatsheet
   url: https://github.com/jsta/imagemagick_cheatsheet
   img: logos/imagemagick_cheatsheet.svg
   bg_color: '#3D6117'
   tile_tooltip: Cheatsheet for the command line image editing program Imagemagick
-  tags: tex
+  tags:
+  - tex
 - name: schemeR
   url: https://github.com/jsta/schemeR
   img: logos/schemeR.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Visualize SQLite structure with R :neckbeard:'
-  tags: rstats
+  tags:
+  - rstats
 - name: nla2012
   url: https://github.com/jhollist/nla2012
   img: logos/nla2012.svg
   bg_color: '#198CE7'
   tile_tooltip: Data package for the US EPA 2012 National Lakes Assessment
-  tags: rstats
+  tags:
+  - rstats
 - name: nesR
   url: https://github.com/jsta/nesR
   img: logos/nesR.svg
   bg_color: '#198CE7'
   tile_tooltip: Scrape Data from the National Eutrophication Survey
-  tags: rstats
+  tags:
+  - rstats
 - name: lakemorpho_manuscript
   url: https://github.com/jhollist/lakemorpho_manuscript
   img: logos/lakemorpho_manuscript.svg
   bg_color: '#3D6117'
   tile_tooltip: repository containing manuscript describing the lakemorpho R package
-  tags: tex
+  tags:
+  - tex
 - name: dataflowchl
   url: https://github.com/jsta/dataflowchl
   img: logos/dataflowchl.svg
   bg_color: '#3D6117'
   tile_tooltip: Improved estimation of phytoplankton abundance and fine-scale water
     quality features via simultaneous discrete and semi-continuous surveys
-  tags: tex
+  tags:
+  - tex
 - name: samples-rmarkdown-metropolis
   url: https://github.com/jsta/samples-rmarkdown-metropolis
   img: logos/samples-rmarkdown-metropolis.svg
   bg_color: '#3D6117'
   tile_tooltip: RMarkdown with Metropolis/Mtheme for Beamer
-  tags: tex
+  tags:
+  - tex
 - name: DataflowR
   url: https://github.com/jsta/DataflowR
   img: logos/DataflowR.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Data handling and interpolation for underway water quality monitoring
     :speedboat: :dash: :sweat_drops::'
-  tags: rstats
+  tags:
+  - rstats
 - name: beamer-lake-fig
   url: https://github.com/jsta/beamer-lake-fig
   img: logos/beamer-lake-fig.svg
   bg_color: '#3D6117'
   tile_tooltip: 'Collection of lake diagrams for use in LaTeX documents :page_with_curl:'
-  tags: tex
+  tags:
+  - tex
 - name: speCluster
   url: https://github.com/cont-limno/speCluster
   img: logos/speCluster.svg
   bg_color: '#198CE7'
   tile_tooltip: Spectral Clustering in R
-  tags: rstats
+  tags:
+  - rstats
 - name: LAGOSNEgis
   url: https://github.com/jsta/LAGOSNEgis
   img: logos/LAGOSNEgis.svg
   bg_color: '#198CE7'
   tile_tooltip: Extra functions to interact with the GIS module of LAGOSNE
-  tags: rstats
+  tags:
+  - rstats
 - name: brms
   url: https://github.com/jsta/brms
   img: logos/brms.svg
   bg_color: '#198CE7'
   tile_tooltip: brms R package for Bayesian generalized non-linear multilevel models
     using Stan
-  tags: rstats
+  tags:
+  - rstats
 - name: peatcollapse_methods
   url: https://github.com/jsta/peatcollapse_methods
   img: logos/peatcollapse_methods.svg
   bg_color: '#3D6117'
   tile_tooltip: In-situ simulation of sea-level rise impacts on coastal wetlands using
     a flow-through mesocosm approach
-  tags: tex
+  tags:
+  - tex
 - name: bayesplot
   url: https://github.com/jsta/bayesplot
   img: logos/bayesplot.svg
   bg_color: '#198CE7'
   tile_tooltip: bayesplot R package for plotting Bayesian models
-  tags: rstats
+  tags:
+  - rstats
 - name: nes_connectivity_p
   url: https://github.com/jsta/nes_connectivity_p
   img: logos/nes_connectivity_p.svg
   bg_color: '#198CE7'
   tile_tooltip: Does Freshwater Connectivity Influence Phosphorus Retention in Lakes?
-  tags: rstats
+  tags:
+  - rstats
 - name: MANAGE
   url: https://github.com/jsta/MANAGE
   img: logos/MANAGE.svg
   bg_color: '#198CE7'
   tile_tooltip: Measured Annual Nutrient loads from AGricultural Environments
-  tags: rstats
+  tags:
+  - rstats
 - name: 2018_ASLO
   url: https://github.com/jsta/2018_ASLO
   img: logos/2018_ASLO.svg
   bg_color: '#3D6117'
   tile_tooltip: Does Lake and Stream Connectivity Control Phosphorus Retention in
     Lakes?
-  tags: tex
+  tags:
+  - tex
 - name: lagos_ag
   url: https://github.com/jsta/lagos_ag
   img: logos/lagos_ag.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Use more detailed Ag data to improve lake TP and TN models :corn:
     :cow:'
-  tags: rstats
+  tags:
+  - rstats
 
