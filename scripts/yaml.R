@@ -14,6 +14,9 @@ dt <- dt_raw %>%
   mutate(tile_tooltip = case_when(nchar(tile_tooltip) > 85 ~ 
                                     paste0(strtrim(tile_tooltip, 85), "..."), 
          TRUE ~ tile_tooltip)) %>%
+  # strip emoji
+  mutate(tile_tooltip = stringr::str_remove(tile_tooltip, ":[^\\s)](.*):")) %>%
+  mutate(tile_tooltip = stringr::str_remove(tile_tooltip, "\\p{So}|\\p{Cn}")) %>%
   filter(!(name %in% proj_ignore$name)) %>%
   mutate(img = paste0("logos/", name, ".svg")) %>%
   select(name, url, img, bg_color, tile_tooltip, tags) %>%

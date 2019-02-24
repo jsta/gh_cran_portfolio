@@ -138,7 +138,7 @@ tiles:
   url: https://github.com/jsta/streamnet
   img: logos/streamnet.svg
   bg_color: '#198CE7'
-  tile_tooltip: "Morphology analysis of stream networks \U0001F343"
+  tile_tooltip: 'Morphology analysis of stream networks '
   tags:
   - rstats
 - name: cond2sal_shiny
@@ -152,7 +152,7 @@ tiles:
   url: https://github.com/jsta/nml
   img: logos/nml.svg
   bg_color: '#198CE7'
-  tile_tooltip: 'An R package for parsing Fortran namelist files :tophat:'
+  tile_tooltip: 'An R package for parsing Fortran namelist files '
   tags:
   - rstats
 - name: sparrow
@@ -238,7 +238,7 @@ tiles:
   url: https://github.com/jsta/schemeR
   img: logos/schemeR.svg
   bg_color: '#198CE7'
-  tile_tooltip: 'Visualize SQLite structure with R :neckbeard:'
+  tile_tooltip: 'Visualize SQLite structure with R '
   tags:
   - rstats
 - name: nesR
@@ -274,15 +274,15 @@ tiles:
   url: https://github.com/jsta/DataflowR
   img: logos/DataflowR.svg
   bg_color: '#198CE7'
-  tile_tooltip: 'Data handling and interpolation for underway water quality monitoring
-    :speedboat: :da...'
+  tile_tooltip: Data handling and interpolation for underway water quality monitoring
+    da...
   tags:
   - rstats
 - name: beamer-lake-fig
   url: https://github.com/jsta/beamer-lake-fig
   img: logos/beamer-lake-fig.svg
   bg_color: '#3D6117'
-  tile_tooltip: 'Collection of lake diagrams for use in LaTeX documents :page_with_curl:'
+  tile_tooltip: 'Collection of lake diagrams for use in LaTeX documents '
   tags:
   - tex
 - name: speCluster
