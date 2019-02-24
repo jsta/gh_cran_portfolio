@@ -21,20 +21,35 @@ dt <- dt_raw %>%
                           tags == "TeX" ~ "tex",
          TRUE ~ tags))
 
-# TODO: resolve conflicts with duplicate entries
-yl_dt <- dplyr::bind_rows(yl[[1]])
-# test if dt entry tags in yl_dt are longer or not
+# keep dt unless yl_dt tags longer than dt tags
+yl_dt   <- dplyr::bind_rows(
+  lapply(yl[[1]], data.frame, stringsAsFactors = FALSE)) %>%
+  group_by(name) %>%
+  add_tally(sort = TRUE, name = "n_tags") %>%
+  distinct(name, n_tags)
+dt_dups <- dt[dt$name %in% yl_dt$name,]
+dt_dups <- dt_dups[dt_dups$name %in% dplyr::filter(yl_dt, n_tags > 1)$name,]
+# dt      <- dplyr::filter(dt, !(name %in% dt_dups$name))
+
+# find yl positions and save yl objects to append later 
+yl_stash <- which(purrr::map_chr(yl[[1]], "name") %in% dt_dups$name)
+yl_stash <- lapply(yl_stash, function(x) yl[[1]][[x]])
 
 # TODO: read custom non-scraped project info from file
 
 res <- as.yaml(dt, column.major = FALSE)
-
-# ---- asdf ----
 write(res, "data/links.yml")
 
 yl          <- yaml::read_yaml("data/links.yml")
 for(i in seq_len(length(yl))){
-  yl[[i]]$tags <- list(yl[[i]]$tags)
+  # i <- 18
+  # TODO append yl_stash tags if yl[[i]]$name matches yl_stash
+  if(yl[[i]]$name %in% unlist(lapply(yl_stash, function(x) yl[[x]]$name))){
+  #   tags <- yl[[i]]$tags
+  # }else{
+    tags <- yl[[i]]$tags
+  # }
+  yl[[i]]$tags <- list(tags)
 }
 
 write("tiles:", "data/links.yml")

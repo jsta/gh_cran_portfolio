@@ -6,7 +6,7 @@ ignore_tags <- data.frame(
 )
 
 ignore_proj <- data.frame(
-  name = c("fabm", "openbugs", "nlmpy", "swatr"), 
+  name = c("fabm", "openbugs", "nlmpy", "swatr", "jsta"), 
   stringsAsFactors = FALSE
 )
 
