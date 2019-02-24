@@ -147,6 +147,7 @@ tiles:
   tile_tooltip: 'An R package for parsing Fortran namelist files '
   tags:
   - rstats
+  - fortran
 - name: limnopapers
   url: https://github.com/jsta/limnopapers
   img: logos/limnopapers.svg
