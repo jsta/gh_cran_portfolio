@@ -3,6 +3,9 @@ suppressMessages(library(dplyr))
 library(tidyr)
 library(stringr)
 
+projects_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE)
+proj_ignore     <- read.csv("static/proj_ignore.csv", stringsAsFactors = FALSE)
+
 projects_cran_raw <- tools::CRAN_package_db()
 projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %>%
   dplyr::select(Package, Author, Title, URL) %>%
@@ -34,10 +37,11 @@ res <- bind_rows(projects_cran, projects_gh) %>%
   filter(!duplicated(Package)) %>%
   filter(!stringr::str_detect(Title, "Reviews")) %>%
   filter(!stringr::str_detect(Package, c(".io$"))) %>%
-  filter(!stringr::str_detect(Package, c("Notes$")))
+  filter(!stringr::str_detect(Package, c("Notes$"))) %>%
+  filter(!(Package %in% proj_ignore$name))
 
 write.csv(res, "static/projects.csv", row.names = FALSE)
-write(paste0("static/logos/", res$Package, ".svg"), 
+write(paste0("static/logos/", c(res$Package, projects_manual$name), ".svg"), 
       file.path("static", "projects_names.txt"))
 # res <- read.csv("static/projects.csv", stringsAsFactors = FALSE)
 

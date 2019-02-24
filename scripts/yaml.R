@@ -27,7 +27,9 @@ dt <- dt_raw %>%
                           tags == "TeX" ~ "tex",
          TRUE ~ tags))
 
-# TODO: read custom non-scraped project info from file, append to dt
+# read custom non-scraped project info from file, append to dt
+dt_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE)
+dt        <- bind_rows(dt, dt_manual)
 
 # keep dt unless yl_dt tags longer than dt tags
 yl_dt   <- dplyr::bind_rows(

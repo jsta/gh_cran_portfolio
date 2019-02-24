@@ -1,4 +1,4 @@
-library(dplyr)
+suppressMessages(library(dplyr))
 
 ignore_tags <- data.frame(
   tags = c("HTML", "Roff", "Makefile"), 
@@ -6,7 +6,8 @@ ignore_tags <- data.frame(
 )
 
 ignore_proj <- data.frame(
-  name = c("fabm", "openbugs", "nlmpy", "swatr", "jsta"), 
+  name = c("fabm", "openbugs", "nlmpy", "swatr", "jsta", "ReScience-submission", 
+           "sfpolymorph", "sparrow"), 
   stringsAsFactors = FALSE
 )
 

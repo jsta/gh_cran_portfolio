@@ -15,7 +15,6 @@ tiles:
     (NID)
   tags:
   - rstats
-  - cpp
 - name: dbhydroR
   url: https://github.com/ropensci/dbhydroR
   img: logos/dbhydroR.svg
@@ -23,7 +22,6 @@ tiles:
   tile_tooltip: '''DBHYDRO'' Hydrologic and Water Quality Data'
   tags:
   - rstats
-  - cpp
 - name: ipdw
   url: https://www.github.com/jsta/ipdw
   img: logos/ipdw.svg
@@ -104,13 +102,6 @@ tiles:
     with R'
   tags:
   - rstats
-- name: sfpolymorph
-  url: https://github.com/jsta/sfpolymorph
-  img: logos/sfpolymorph.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Calculate polygon shape metrics
-  tags:
-  - rstats
 - name: gshhg
   url: https://github.com/jsta/gshhg
   img: logos/gshhg.svg
@@ -141,6 +132,7 @@ tiles:
   tile_tooltip: 'Morphology analysis of stream networks '
   tags:
   - rstats
+  - cpp
 - name: cond2sal_shiny
   url: https://github.com/jsta/cond2sal_shiny
   img: logos/cond2sal_shiny.svg
@@ -153,13 +145,6 @@ tiles:
   img: logos/nml.svg
   bg_color: '#198CE7'
   tile_tooltip: 'An R package for parsing Fortran namelist files '
-  tags:
-  - rstats
-- name: sparrow
-  url: https://github.com/jsta/sparrow
-  img: logos/sparrow.svg
-  bg_color: '#198CE7'
-  tile_tooltip: SPAtially Referenced Regression on Watershed attributes
   tags:
   - rstats
 - name: limnopapers
@@ -220,13 +205,6 @@ tiles:
   tile_tooltip: Irregular Landscape Graphs to generate accumulated cost surfaces
   tags:
   - rstats
-- name: ReScience-submission
-  url: https://github.com/jsta/ReScience-submission
-  img: logos/ReScience-submission.svg
-  bg_color: '#3D6117'
-  tile_tooltip: ReScience submission repository
-  tags:
-  - tex
 - name: imagemagick_cheatsheet
   url: https://github.com/jsta/imagemagick_cheatsheet
   img: logos/imagemagick_cheatsheet.svg
@@ -261,13 +239,6 @@ tiles:
   bg_color: '#3D6117'
   tile_tooltip: Improved estimation of phytoplankton abundance and fine-scale water
     quality features ...
-  tags:
-  - tex
-- name: samples-rmarkdown-metropolis
-  url: https://github.com/jsta/samples-rmarkdown-metropolis
-  img: logos/samples-rmarkdown-metropolis.svg
-  bg_color: '#3D6117'
-  tile_tooltip: RMarkdown with Metropolis/Mtheme for Beamer
   tags:
   - tex
 - name: DataflowR
@@ -321,4 +292,12 @@ tiles:
   tile_tooltip: Measured Annual Nutrient loads from AGricultural Environments
   tags:
   - rstats
+- name: smwrQW
+  url: https://github.com/USGS-R/smwrQW
+  img: logos/smwrQW.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Water quality USGS water science R functions.
+  tags:
+  - rstats
+  - fortran
 
