@@ -1,105 +1,25 @@
 tiles:
-- name: cdlTools
-  url: .na.character
-  img: logos/cdlTools.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Tools to Download and Work with USDA Cropscape Data
-  tags:
-  - rstats
-- name: dams
-  url: https://github.com/jsta/dams
-  img: logos/dams.svg
-  bg_color: '#198CE7'
-  tile_tooltip: |-
-    Dams in the United States from the National Inventory of Dams
-    (NID)
-  tags:
-  - rstats
-- name: dbhydroR
-  url: https://github.com/ropensci/dbhydroR
-  img: logos/dbhydroR.svg
-  bg_color: '#198CE7'
-  tile_tooltip: '''DBHYDRO'' Hydrologic and Water Quality Data'
-  tags:
-  - rstats
-- name: ipdw
-  url: https://www.github.com/jsta/ipdw
-  img: logos/ipdw.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Spatial Interpolation by Inverse Path Distance Weighting
-  tags:
-  - rstats
-- name: LAGOSNE
-  url: https://github.com/cont-limno/LAGOSNE
-  img: logos/LAGOSNE.svg
-  bg_color: '#198CE7'
-  tile_tooltip: |-
-    Interface to the Lake Multi-Scaled Geospatial and Temporal
-    Database
-  tags:
-  - rstats
-- name: lakemorpho
-  url: http://www.github.com/jhollist/lakemorpho
-  img: logos/lakemorpho.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Lake Morphometry Metrics
-  tags:
-  - rstats
-- name: nesRdata
-  url: https://github.com/jsta/nesRdata
-  img: logos/nesRdata.svg
-  bg_color: '#198CE7'
-  tile_tooltip: National Eutrophication Survey Data
-  tags:
-  - rstats
-- name: nhdR
-  url: https://github.com/jsta/nhdR
-  img: logos/nhdR.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Tools for working with the National Hydrography Dataset
-  tags:
-  - rstats
-- name: nlaR
-  url: https://github.com/jsta/nlaR
-  img: logos/nlaR.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Interface to the National Lakes Assessment
-  tags:
-  - rstats
-- name: rnoaa
-  url: https://github.com/ropensci/rnoaa
-  img: logos/rnoaa.svg
-  bg_color: '#198CE7'
-  tile_tooltip: '''NOAA'' Weather Data from R'
-  tags:
-  - rstats
-- name: rv
-  url: https://github.com/jsta/rv
-  img: logos/rv.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Simulation-Based Random Variable Objects
-  tags:
-  - rstats
-- name: wikilake
-  url: https://github.com/jsta/wikilake
-  img: logos/wikilake.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Scrape Lake Metadata Tables from Wikipedia
-  tags:
-  - rstats
-- name: wql
-  url: https://github.com/jsta/wql
-  img: logos/wql.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Exploring Water Quality Monitoring Data
-  tags:
-  - rstats
 - name: r-raster-vector-geospatial
   url: https://github.com/datacarpentry/r-raster-vector-geospatial
   img: logos/r-raster-vector-geospatial.svg
   bg_color: '#198CE7'
   tile_tooltip: 'Data Carpentry: Introduction to Geospatial Raster and Vector Data
     with R'
+  tags:
+  - rstats
+- name: nhdR
+  url: https://github.com/jsta/nhdR
+  img: logos/nhdR.svg
+  bg_color: '#198CE7'
+  tile_tooltip: 'R interface to the National Hydrography Dataset '
+  tags:
+  - rstats
+- name: dbhydroR
+  url: https://github.com/ropensci/dbhydroR
+  img: logos/dbhydroR.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R interface to the South Florida Water Management District's DBHYDRO
+    Database :sweat_...
   tags:
   - rstats
 - name: gshhg
@@ -110,11 +30,39 @@ tiles:
     Database
   tags:
   - rstats
+- name: LAGOSNE
+  url: https://github.com/cont-limno/LAGOSNE
+  img: logos/LAGOSNE.svg
+  bg_color: '#198CE7'
+  tile_tooltip: 'Interface to the LAke multi-scaled GeOSpatial & temporal database '
+  tags:
+  - rstats
+- name: wikilake
+  url: https://github.com/jsta/wikilake
+  img: logos/wikilake.svg
+  bg_color: '#198CE7'
+  tile_tooltip: 'Scrape lake metadata tables from Wikipedia '
+  tags:
+  - rstats
+- name: ipdw
+  url: https://github.com/jsta/ipdw
+  img: logos/ipdw.svg
+  bg_color: '#198CE7'
+  tile_tooltip: 'Interpolation by Inverse Path Distance Weighting  '
+  tags:
+  - rstats
 - name: glwdr
   url: https://github.com/jsta/glwdr
   img: logos/glwdr.svg
   bg_color: '#198CE7'
   tile_tooltip: R client for the Global Lakes and Wetlands Database
+  tags:
+  - rstats
+- name: dams
+  url: https://github.com/jsta/dams
+  img: logos/dams.svg
+  bg_color: '#198CE7'
+  tile_tooltip: 'R interface to the United States National Inventory of Dams '
   tags:
   - rstats
 - name: externalrdata
@@ -162,6 +110,13 @@ tiles:
   tile_tooltip: Python package enabling an open source gSSURGO workflow
   tags:
   - python
+- name: nlaR
+  url: https://github.com/jsta/nlaR
+  img: logos/nlaR.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R interface to the National Lakes Assessment
+  tags:
+  - rstats
 - name: NES
   url: https://github.com/ReproducibleQM/NES
   img: logos/NES.svg
@@ -176,6 +131,13 @@ tiles:
   bg_color: '#198CE7'
   tile_tooltip: 'Creating multi-themed ecological regions for macroscale ecology:
     testing a flexible, ...'
+  tags:
+  - rstats
+- name: nesRdata
+  url: https://github.com/jsta/nesRdata
+  img: logos/nesRdata.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R package to fetch, cache, and serve the National Eutrophication Survey
   tags:
   - rstats
 - name: nsws
@@ -293,6 +255,276 @@ tiles:
   tile_tooltip: Measured Annual Nutrient loads from AGricultural Environments
   tags:
   - rstats
+- name: rv
+  url: https://github.com/jsta/rv
+  img: logos/rv.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Simulation-Based Random Variable Objects
+  tags:
+  - rstats
+- name: linguist
+  url: https://github.com/github/linguist
+  img: logos/linguist.svg
+  bg_color: '#701516'
+  tile_tooltip: Language Savant. If your repository's language is being reported incorrectly,
+    send us...
+  tags:
+  - Ruby
+- name: janitor
+  url: https://github.com/sfirke/janitor
+  img: logos/janitor.svg
+  bg_color: '#198CE7'
+  tile_tooltip: simple tools for data cleaning in R
+  tags:
+  - rstats
+- name: vitae
+  url: https://github.com/ropenscilabs/vitae
+  img: logos/vitae.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R Markdown Résumés and CVs
+  tags:
+  - rstats
+- name: mapview
+  url: https://github.com/r-spatial/mapview
+  img: logos/mapview.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Interactive viewing of spatial data in R
+  tags:
+  - rstats
+- name: rnoaa
+  url: https://github.com/ropensci/rnoaa
+  img: logos/rnoaa.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R interface to many NOAA data APIs
+  tags:
+  - rstats
+- name: prob-stats
+  url: https://github.com/bob-carpenter/prob-stats
+  img: logos/prob-stats.svg
+  bg_color: '#3D6117'
+  tile_tooltip: 'Probability and Statistics: a simulation-based introduction.  An
+    open-access book.'
+  tags:
+  - tex
+- name: dataRetrieval
+  url: https://github.com/USGS-R/dataRetrieval
+  img: logos/dataRetrieval.svg
+  bg_color: '#198CE7'
+  tile_tooltip: This R package is designed to obtain USGS or EPA water quality sample
+    data, streamflo...
+  tags:
+  - rstats
+- name: DataPackageR
+  url: https://github.com/ropensci/DataPackageR
+  img: logos/DataPackageR.svg
+  bg_color: '#198CE7'
+  tile_tooltip: An R package to enable reproducible data processing, packaging and
+    sharing.
+  tags:
+  - rstats
+- name: make-novice
+  url: https://github.com/swcarpentry/make-novice
+  img: logos/make-novice.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Novice lesson on Make
+  tags:
+  - python
+- name: landscapemetrics
+  url: https://github.com/r-spatialecology/landscapemetrics
+  img: logos/landscapemetrics.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Landscape Metrics for Categorical Map Patterns ️ in R
+  tags:
+  - rstats
+- name: python-ecology-lesson
+  url: https://github.com/datacarpentry/python-ecology-lesson
+  img: logos/python-ecology-lesson.svg
+  bg_color: '#DA5B0B'
+  tile_tooltip: ' Data Carpentry Python lessons on ecology.'
+  tags:
+  - Jupyter Notebook
+- name: FedData
+  url: https://github.com/ropensci/FedData
+  img: logos/FedData.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Functions to Automate Downloading Geospatial Data Available from Several
+    Federated Da...
+  tags:
+  - rstats
+- name: whiteboxR
+  url: https://github.com/giswqs/whiteboxR
+  img: logos/whiteboxR.svg
+  bg_color: '#198CE7'
+  tile_tooltip: WhiteboxTools R Frontend
+  tags:
+  - rstats
+- name: tidyRSS
+  url: https://github.com/RobertMyles/tidyRSS
+  img: logos/tidyRSS.svg
+  bg_color: '#198CE7'
+  tile_tooltip: An R package for extracting tidy data frames from RSS, Atom, JSON
+    and geoRSS feeds
+  tags:
+  - rstats
+- name: gpe
+  url: https://github.com/goldingn/gpe
+  img: logos/gpe.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Gaussian process everything - an R package to reimplement and combine
+    common statisti...
+  tags:
+  - rstats
+- name: research_computing
+  url: https://github.com/rabernat/research_computing
+  img: logos/research_computing.svg
+  bg_color: '#DA5B0B'
+  tile_tooltip: Website for Research Computing in Earth Sciences
+  tags:
+  - Jupyter Notebook
+- name: nhdplusTools
+  url: https://github.com/dblodgett-usgs/nhdplusTools
+  img: logos/nhdplusTools.svg
+  bg_color: '#198CE7'
+  tile_tooltip: NHDPlus Tools
+  tags:
+  - rstats
+- name: GrainSizeTools
+  url: https://github.com/marcoalopez/GrainSizeTools
+  img: logos/GrainSizeTools.svg
+  bg_color: '#3572A5'
+  tile_tooltip: A Python script for estimating grain size, grain size populations,
+    and differential s...
+  tags:
+  - python
+- name: glmtools
+  url: https://github.com/USGS-R/glmtools
+  img: logos/glmtools.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Tools for interacting with the General Lake Model (GLM) in R
+  tags:
+  - rstats
+- name: r-socialsci
+  url: https://github.com/datacarpentry/r-socialsci
+  img: logos/r-socialsci.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on R for social scientists.
+  tags:
+  - python
+- name: HydroData
+  url: https://github.com/mikejohnson51/HydroData
+  img: logos/HydroData.svg
+  bg_color: '#198CE7'
+  tile_tooltip: An R  for finding and getting geospatial earth systems data
+  tags:
+  - rstats
+- name: OpenRefine-ecology-lesson
+  url: https://github.com/datacarpentry/OpenRefine-ecology-lesson
+  img: logos/OpenRefine-ecology-lesson.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on OpenRefine for ecology.
+  tags:
+  - python
+- name: rnassqs
+  url: https://github.com/potterzot/rnassqs
+  img: logos/rnassqs.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R interface for the NASS QUICK STATS API
+  tags:
+  - rstats
+- name: python-socialsci
+  url: https://github.com/datacarpentry/python-socialsci
+  img: logos/python-socialsci.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on Python for social scientists.
+  tags:
+  - python
+- name: spatialEco
+  url: https://github.com/jeffreyevans/spatialEco
+  img: logos/spatialEco.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R package for spatial analysis and modelling of ecological systems
+  tags:
+  - rstats
+- name: hydrolinks
+  url: https://github.com/lawinslow/hydrolinks
+  img: logos/hydrolinks.svg
+  bg_color: '#198CE7'
+  tile_tooltip: National Hydrography Network Dataset Tools for R
+  tags:
+  - rstats
+- name: countdeps
+  url: https://github.com/slopp/countdeps
+  img: logos/countdeps.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R package for identifying project dependencies
+  tags:
+  - rstats
+- name: cdlTools
+  url: https://github.com/jlisic/cdlTools
+  img: logos/cdlTools.svg
+  bg_color: '#198CE7'
+  tile_tooltip: A set of tools for fetching and using the Cropscape Data Layer in
+    R
+  tags:
+  - rstats
+- name: openrefine-socialsci
+  url: https://github.com/datacarpentry/openrefine-socialsci
+  img: logos/openrefine-socialsci.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on OpenRefine for social scientists.
+  tags:
+  - python
+- name: rcanvec
+  url: https://github.com/paleolimbot/rcanvec
+  img: logos/rcanvec.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Access and plot CanVec and CanVec+ data for rapid basemap creation
+    in Canada
+  tags:
+  - rstats
+- name: spreadsheets-socialsci
+  url: https://github.com/datacarpentry/spreadsheets-socialsci
+  img: logos/spreadsheets-socialsci.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on spreadsheets for social scientists.
+  tags:
+  - python
+- name: sql-socialsci
+  url: https://github.com/datacarpentry/sql-socialsci
+  img: logos/sql-socialsci.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Lesson on SQL for social scientists.
+  tags:
+  - python
+- name: rr-workshop
+  url: https://github.com/datacarpentry/rr-workshop
+  img: logos/rr-workshop.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Workshop and lesson templates
+  tags:
+  - python
+- name: socialsci-workshop
+  url: https://github.com/datacarpentry/socialsci-workshop
+  img: logos/socialsci-workshop.svg
+  bg_color: '#3572A5'
+  tile_tooltip: Workshop for social scientists.
+  tags:
+  - python
+- name: template
+  url: https://github.com/rescience-c/template
+  img: logos/template.svg
+  bg_color: '#3D6117'
+  tile_tooltip: Article template (latex and metadata)
+  tags:
+  - tex
+- name: python-ecology-lesson-es
+  url: https://github.com/datacarpentry/python-ecology-lesson-es
+  img: logos/python-ecology-lesson-es.svg
+  bg_color: '#DA5B0B'
+  tile_tooltip: Este repositorio contiene material para enseñar la lección de Data
+    Carpentry con Pyth...
+  tags:
+  - Jupyter Notebook
 - name: smwrQW
   url: https://github.com/USGS-R/smwrQW
   img: logos/smwrQW.svg
