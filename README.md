@@ -10,11 +10,11 @@
   
     * Tags must be lower case
   
-2. Add projects to include _manually_ via [scripts/project_manual.R](scripts/project_manual.R)
+2. Add projects to include _manually_ via [scripts/00_project_manual.R](scripts/00_project_manual.R)
 
-3. Set author and Github account in [scripts/scrape.R](scripts/scrape.R)
+3. Add projects and tags to ignore _manually_ via [scripts/00_projects_ignore.R](scripts/00_projects_ignore.R)
 
-4. Add projects and tags to ignore _manually_ via [scripts/projects_ignore.R](scripts/projects_ignore.R)
+4. Set author and Github account in [scripts/01_scrape.R](scripts/01_scrape.R)
 
 5. Scrape CRAN and Github, build site via [Makefile](Makefile)
 
