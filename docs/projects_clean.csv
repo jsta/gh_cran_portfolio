@@ -1,0 +1,63 @@
+"name","url","img","bg_color","tile_tooltip","tags","remote_img"
+"nhdR","https://github.com/jsta/nhdR","logos/nhdR.svg","#198CE7","R interface to the National Hydrography Dataset ","rstats",NA
+"dbhydroR","https://github.com/ropensci/dbhydroR","logos/dbhydroR.svg","#198CE7","R interface to the South Florida Water Management District's DBHYDRO Database :sweat_...","rstats",NA
+"gshhg","https://github.com/jsta/gshhg","logos/gshhg.svg","#198CE7","A Global Self-consistent, Hierarchical, High-resolution Geography Database","rstats",NA
+"LAGOSNE","https://github.com/cont-limno/LAGOSNE","logos/LAGOSNE.svg","#198CE7","Interface to the LAke multi-scaled GeOSpatial & temporal database ","rstats",NA
+"wikilake","https://github.com/jsta/wikilake","logos/wikilake.svg","#198CE7","Scrape lake metadata tables from Wikipedia ","rstats",NA
+"ipdw","https://github.com/jsta/ipdw","logos/ipdw.svg","#198CE7","Interpolation by Inverse Path Distance Weighting  ","rstats",NA
+"glwdr","https://github.com/jsta/glwdr","logos/glwdr.svg","#198CE7","R client for the Global Lakes and Wetlands Database","rstats",NA
+"dams","https://github.com/jsta/dams","logos/dams.svg","#198CE7","R interface to the United States National Inventory of Dams ","rstats",NA
+"externalrdata","https://github.com/jsta/externalrdata","logos/externalrdata.svg","#198CE7","Template for R packages that fetch, cache, and serve data from external sources","rstats",NA
+"streamnet","https://github.com/jsta/streamnet","logos/streamnet.svg","#198CE7","Morphology analysis of stream networks ","rstats",NA
+"cond2sal_shiny","https://github.com/jsta/cond2sal_shiny","logos/cond2sal_shiny.svg","#198CE7","Shiny app to convert conductivity to salinity","rstats",NA
+"nml","https://github.com/jsta/nml","logos/nml.svg","#198CE7","An R package for parsing Fortran namelist files ","rstats",NA
+"limnopapers","https://github.com/jsta/limnopapers","logos/limnopapers.svg","#3572A5","Twitter feed of newly published articles in limnology","python",NA
+"gssurgo","https://github.com/jsta/gssurgo","logos/gssurgo.svg","#3572A5","Python package enabling an open source gSSURGO workflow","python",NA
+"nlaR","https://github.com/jsta/nlaR","logos/nlaR.svg","#198CE7","R interface to the National Lakes Assessment","rstats",NA
+"NES","https://github.com/ReproducibleQM/NES","logos/NES.svg","#3D6117","The National Eutrophication Survey: lake characteristics and historical nutrient conc...","tex",NA
+"SpectralClustering4Regions","https://github.com/cont-limno/SpectralClustering4Regions","logos/SpectralClustering4Regions.svg","#198CE7","Creating multi-themed ecological regions for macroscale ecology: testing a flexible, ...","rstats",NA
+"nesRdata","https://github.com/jsta/nesRdata","logos/nesRdata.svg","#198CE7","R package to fetch, cache, and serve the National Eutrophication Survey","rstats",NA
+"nsws","https://github.com/jsta/nsws","logos/nsws.svg","#198CE7","National Surface Water Survey Package","rstats",NA
+"mapview.addin","https://github.com/jsta/mapview.addin","logos/mapview.addin.svg","#198CE7","RStudio addin for viewing Spatial objects","rstats",NA
+"dciR","https://github.com/jsta/dciR","logos/dciR.svg","#e16737","Calculate Directional Connectivity Index without Matlab","matlab",NA
+"irlgraph","https://github.com/jsta/irlgraph","logos/irlgraph.svg","#198CE7","Irregular Landscape Graphs to generate accumulated cost surfaces","rstats",NA
+"imagemagick_cheatsheet","https://github.com/jsta/imagemagick_cheatsheet","logos/imagemagick_cheatsheet.svg","#3D6117","Cheatsheet for the command line image editing program Imagemagick","tex",NA
+"schemeR","https://github.com/jsta/schemeR","logos/schemeR.svg","#198CE7","Visualize SQLite structure with R ","rstats",NA
+"nesR","https://github.com/jsta/nesR","logos/nesR.svg","#198CE7","Scrape Data from the National Eutrophication Survey","rstats",NA
+"lakemorpho_manuscript","https://github.com/jhollist/lakemorpho_manuscript","logos/lakemorpho_manuscript.svg","#3D6117","repository containing manuscript describing the lakemorpho R package","tex",NA
+"dataflowchl","https://github.com/jsta/dataflowchl","logos/dataflowchl.svg","#3D6117","Improved estimation of phytoplankton abundance and fine-scale water quality features ...","tex",NA
+"DataflowR","https://github.com/jsta/DataflowR","logos/DataflowR.svg","#198CE7","Data handling and interpolation for underway water quality monitoring da...","rstats",NA
+"beamer-lake-fig","https://github.com/jsta/beamer-lake-fig","logos/beamer-lake-fig.svg","#3D6117","Collection of lake diagrams for use in LaTeX documents ","tex",NA
+"speCluster","https://github.com/cont-limno/speCluster","logos/speCluster.svg","#198CE7","Spectral Clustering in R","rstats",NA
+"LAGOSNEgis","https://github.com/jsta/LAGOSNEgis","logos/LAGOSNEgis.svg","#198CE7","Extra functions to interact with the GIS module of LAGOSNE","rstats",NA
+"peatcollapse_methods","https://github.com/jsta/peatcollapse_methods","logos/peatcollapse_methods.svg","#3D6117","In-situ simulation of sea-level rise impacts on coastal wetlands using a flow-through...","tex",NA
+"nes_connectivity_p","https://github.com/jsta/nes_connectivity_p","logos/nes_connectivity_p.svg","#198CE7","Does Freshwater Connectivity Influence Phosphorus Retention in Lakes?","rstats",NA
+"MANAGE","https://github.com/jsta/MANAGE","logos/MANAGE.svg","#198CE7","Measured Annual Nutrient loads from AGricultural Environments","rstats",NA
+"rv","https://github.com/jsta/rv","logos/rv.svg","#198CE7","Simulation-Based Random Variable Objects","rstats",NA
+"linguist","https://github.com/github/linguist","logos/linguist.svg","#701516","Language Savant. If your repository's language is being reported incorrectly, send us...","Ruby",NA
+"janitor","https://github.com/sfirke/janitor","logos/janitor.svg","#198CE7","simple tools for data cleaning in R","rstats",NA
+"vitae","https://github.com/ropenscilabs/vitae","logos/vitae.svg","#198CE7","R Markdown Résumés and CVs","rstats",NA
+"mapview","https://github.com/r-spatial/mapview","logos/mapview.svg","#198CE7","Interactive viewing of spatial data in R","rstats",NA
+"rnoaa","https://github.com/ropensci/rnoaa","logos/rnoaa.svg","#198CE7","R interface to many NOAA data APIs","rstats",NA
+"prob-stats","https://github.com/bob-carpenter/prob-stats","logos/prob-stats.svg","#3D6117","Probability and Statistics: a simulation-based introduction.  An open-access book.","tex",NA
+"dataRetrieval","https://github.com/USGS-R/dataRetrieval","logos/dataRetrieval.svg","#198CE7","This R package is designed to obtain USGS or EPA water quality sample data, streamflo...","rstats",NA
+"DataPackageR","https://github.com/ropensci/DataPackageR","logos/DataPackageR.svg","#198CE7","An R package to enable reproducible data processing, packaging and sharing.","rstats",NA
+"landscapemetrics","https://github.com/r-spatialecology/landscapemetrics","logos/landscapemetrics.svg","#198CE7","Landscape Metrics for Categorical Map Patterns ️ in R","rstats",NA
+"FedData","https://github.com/ropensci/FedData","logos/FedData.svg","#198CE7","Functions to Automate Downloading Geospatial Data Available from Several Federated Da...","rstats",NA
+"whiteboxR","https://github.com/giswqs/whiteboxR","logos/whiteboxR.svg","#198CE7","WhiteboxTools R Frontend","rstats",NA
+"tidyRSS","https://github.com/RobertMyles/tidyRSS","logos/tidyRSS.svg","#198CE7","An R package for extracting tidy data frames from RSS, Atom, JSON and geoRSS feeds","rstats",NA
+"ghrecipes","https://github.com/ropenscilabs/ghrecipes","logos/ghrecipes.svg","#198CE7","Provides some helper functions for using GitHub V4 API","rstats",NA
+"gpe","https://github.com/goldingn/gpe","logos/gpe.svg","#198CE7","Gaussian process everything - an R package to reimplement and combine common statisti...","rstats",NA
+"research_computing","https://github.com/rabernat/research_computing","logos/research_computing.svg","#DA5B0B","Website for Research Computing in Earth Sciences","Jupyter Notebook",NA
+"nhdplusTools","https://github.com/dblodgett-usgs/nhdplusTools","logos/nhdplusTools.svg","#198CE7","NHDPlus Tools","rstats",NA
+"GrainSizeTools","https://github.com/marcoalopez/GrainSizeTools","logos/GrainSizeTools.svg","#3572A5","A Python script for estimating grain size, grain size populations, and differential s...","python",NA
+"glmtools","https://github.com/USGS-R/glmtools","logos/glmtools.svg","#198CE7","Tools for interacting with the General Lake Model (GLM) in R","rstats",NA
+"HydroData","https://github.com/mikejohnson51/HydroData","logos/HydroData.svg","#198CE7","An R  for finding and getting geospatial earth systems data","rstats",NA
+"rnassqs","https://github.com/potterzot/rnassqs","logos/rnassqs.svg","#198CE7","R interface for the NASS QUICK STATS API","rstats",NA
+"spatialEco","https://github.com/jeffreyevans/spatialEco","logos/spatialEco.svg","#198CE7","R package for spatial analysis and modelling of ecological systems","rstats",NA
+"hydrolinks","https://github.com/lawinslow/hydrolinks","logos/hydrolinks.svg","#198CE7","National Hydrography Network Dataset Tools for R","rstats",NA
+"countdeps","https://github.com/slopp/countdeps","logos/countdeps.svg","#198CE7","R package for identifying project dependencies","rstats",NA
+"cdlTools","https://github.com/jlisic/cdlTools","logos/cdlTools.svg","#198CE7","A set of tools for fetching and using the Cropscape Data Layer in R","rstats",NA
+"rcanvec","https://github.com/paleolimbot/rcanvec","logos/rcanvec.svg","#198CE7","Access and plot CanVec and CanVec+ data for rapid basemap creation in Canada","rstats",NA
+"smwrQW","https://github.com/USGS-R/smwrQW","static/logos/smwrQW.svg","#198CE7","Water quality USGS water science R functions.","rstats","https://owi.usgs.gov/R/img/usgs-r-logo.png"
+"r-raster-vector-geospatial","https://github.com/datacarpentry/r-raster-vector-geospatial","static/logos/r-raster-vector-geospatial.svg","#198CE7","Introduction to Geospatial Raster and Vector Data with R.","rstats",NA

@@ -71,3 +71,4 @@ static/logos/cdlTools.svg
 static/logos/rcanvec.svg
 static/logos/LAGOS_Lake_Link.svg
 static/logos/smwrQW.svg
+static/logos/r-raster-vector-geospatial.svg
