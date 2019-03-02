@@ -10,11 +10,11 @@
   
     * Tags must be lower case
   
-2. Add projects to include _manually_ via [scripts/projects_manual.R](scripts/projects_manual.R)
+2. Add projects to include _manually_ via [scripts/project_manual.R](scripts/project_manual.R)
 
 3. Set author and Github account in [scripts/scrape.R](scripts/scrape.R)
 
-4. Add projects and tags to ignore _manually_ via [scripts/project_ignore.R](scripts/project_ignore.R)
+4. Add projects and tags to ignore _manually_ via [scripts/projects_ignore.R](scripts/projects_ignore.R)
 
 5. Scrape CRAN and Github, build site via [Makefile](Makefile)
 
@@ -27,5 +27,5 @@ make all
 6. Preview site 
 
 ```r
-blogdown::serve_site() # preview site
+blogdown::serve_site()
 ```
