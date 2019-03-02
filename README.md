@@ -18,11 +18,11 @@
 
 5. Scrape CRAN and Github, build site via [Makefile](Makefile)
 
+    * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
+
 ```
 make all
 ```
-
-    * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
 
 6. Preview site 
 
