@@ -29,3 +29,7 @@ make all
 ```r
 blogdown::serve_site()
 ```
+
+## Credit
+
+Modified from the [slate hugo template](https://github.com/gesquive/slate)
