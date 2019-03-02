@@ -2,9 +2,9 @@
 "HTML","fabm","carpentries"
 "Roff","openbugs","GLEON"
 "Makefile","nlmpy","openjournals"
-NA,"swatr",NA
-NA,"jsta",NA
-NA,"ReScience-submission",NA
+NA,"swatr","rescience-c"
+NA,"jsta","datacarpentry"
+NA,"ReScience-submission","swcarpentry"
 NA,"sfpolymorph",NA
 NA,"sparrow",NA
 NA,"software-review",NA

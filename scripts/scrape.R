@@ -15,7 +15,7 @@ projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %
 projects_gh_raw <- ghrecipes::get_repos("jsta") %>%
   data.frame()
 
-projects_gh_contrib_raw <- ghrecipes::get_contributions() %>%
+projects_gh_contrib_raw <- ghrecipes::get_repos_contributed("jsta") %>%
   data.frame()
 
 projects_gh     <-  projects_gh_raw %>%

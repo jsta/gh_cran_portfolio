@@ -12,7 +12,7 @@ ignore_proj <- data.frame(
 )
 
 ignore_accnt <- data.frame(
-  accnt = c("carpentries", "GLEON", "openjournals"), 
+  accnt = c("carpentries", "GLEON", "openjournals", "rescience-c", "datacarpentry", "swcarpentry"), 
   stringsAsFactors = FALSE
 )
 

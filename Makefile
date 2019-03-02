@@ -6,16 +6,16 @@ all: docs/index.html
 static/proj_ignore.csv: scripts/project_ignore.R
 	Rscript $<
 
-static/projects_names.txt: scripts/scrape.R static/project_manual.csv
+static/projects_names.txt: scripts/scrape.R static/project_manual.csv static/proj_ignore.csv
 	Rscript $<
 
-static/projects.csv: scripts/scrape.R static/project_manual.csv
+static/projects.csv: scripts/scrape.R static/project_manual.csv static/proj_ignore.csv
 	Rscript $<
 	
 svgs: $(PROJECTNAMES)
 	echo svgs rendered
 	
-static/logos/%.svg: scripts/svg.R static/projects_names.txt static/proj_ignore.csv
+static/logos/%.svg: scripts/svg.R static/projects_names.txt static/proj_ignore.csv static/project_manual.csv
 	Rscript $< $(basename $@)
 	
 data/links.yml: scripts/yaml.R static/proj_ignore.csv static/projects.csv

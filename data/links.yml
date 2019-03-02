@@ -1,12 +1,4 @@
 tiles:
-- name: r-raster-vector-geospatial
-  url: https://github.com/datacarpentry/r-raster-vector-geospatial
-  img: logos/r-raster-vector-geospatial.svg
-  bg_color: '#198CE7'
-  tile_tooltip: 'Data Carpentry: Introduction to Geospatial Raster and Vector Data
-    with R'
-  tags:
-  - rstats
 - name: nhdR
   url: https://github.com/jsta/nhdR
   img: logos/nhdR.svg
@@ -86,6 +78,13 @@ tiles:
   img: logos/cond2sal_shiny.svg
   bg_color: '#198CE7'
   tile_tooltip: Shiny app to convert conductivity to salinity
+  tags:
+  - rstats
+- name: r-raster-vector-geospatial
+  url: https://github.com/jsta/r-raster-vector-geospatial
+  img: logos/r-raster-vector-geospatial.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Data Carpentry spatial lessons - raster/vector data in R
   tags:
   - rstats
 - name: nml
@@ -322,13 +321,6 @@ tiles:
     sharing.
   tags:
   - rstats
-- name: make-novice
-  url: https://github.com/swcarpentry/make-novice
-  img: logos/make-novice.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Novice lesson on Make
-  tags:
-  - python
 - name: landscapemetrics
   url: https://github.com/r-spatialecology/landscapemetrics
   img: logos/landscapemetrics.svg
@@ -336,13 +328,6 @@ tiles:
   tile_tooltip: Landscape Metrics for Categorical Map Patterns ️ in R
   tags:
   - rstats
-- name: python-ecology-lesson
-  url: https://github.com/datacarpentry/python-ecology-lesson
-  img: logos/python-ecology-lesson.svg
-  bg_color: '#DA5B0B'
-  tile_tooltip: ' Data Carpentry Python lessons on ecology.'
-  tags:
-  - Jupyter Notebook
 - name: FedData
   url: https://github.com/ropensci/FedData
   img: logos/FedData.svg
@@ -364,6 +349,13 @@ tiles:
   bg_color: '#198CE7'
   tile_tooltip: An R package for extracting tidy data frames from RSS, Atom, JSON
     and geoRSS feeds
+  tags:
+  - rstats
+- name: ghrecipes
+  url: https://github.com/ropenscilabs/ghrecipes
+  img: logos/ghrecipes.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Provides some helper functions for using GitHub V4 API
   tags:
   - rstats
 - name: gpe
@@ -403,13 +395,6 @@ tiles:
   tile_tooltip: Tools for interacting with the General Lake Model (GLM) in R
   tags:
   - rstats
-- name: r-socialsci
-  url: https://github.com/datacarpentry/r-socialsci
-  img: logos/r-socialsci.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on R for social scientists.
-  tags:
-  - python
 - name: HydroData
   url: https://github.com/mikejohnson51/HydroData
   img: logos/HydroData.svg
@@ -417,13 +402,6 @@ tiles:
   tile_tooltip: An R  for finding and getting geospatial earth systems data
   tags:
   - rstats
-- name: OpenRefine-ecology-lesson
-  url: https://github.com/datacarpentry/OpenRefine-ecology-lesson
-  img: logos/OpenRefine-ecology-lesson.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on OpenRefine for ecology.
-  tags:
-  - python
 - name: rnassqs
   url: https://github.com/potterzot/rnassqs
   img: logos/rnassqs.svg
@@ -431,13 +409,6 @@ tiles:
   tile_tooltip: R interface for the NASS QUICK STATS API
   tags:
   - rstats
-- name: python-socialsci
-  url: https://github.com/datacarpentry/python-socialsci
-  img: logos/python-socialsci.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on Python for social scientists.
-  tags:
-  - python
 - name: spatialEco
   url: https://github.com/jeffreyevans/spatialEco
   img: logos/spatialEco.svg
@@ -467,13 +438,6 @@ tiles:
     R
   tags:
   - rstats
-- name: openrefine-socialsci
-  url: https://github.com/datacarpentry/openrefine-socialsci
-  img: logos/openrefine-socialsci.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on OpenRefine for social scientists.
-  tags:
-  - python
 - name: rcanvec
   url: https://github.com/paleolimbot/rcanvec
   img: logos/rcanvec.svg
@@ -482,49 +446,6 @@ tiles:
     in Canada
   tags:
   - rstats
-- name: spreadsheets-socialsci
-  url: https://github.com/datacarpentry/spreadsheets-socialsci
-  img: logos/spreadsheets-socialsci.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on spreadsheets for social scientists.
-  tags:
-  - python
-- name: sql-socialsci
-  url: https://github.com/datacarpentry/sql-socialsci
-  img: logos/sql-socialsci.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Lesson on SQL for social scientists.
-  tags:
-  - python
-- name: rr-workshop
-  url: https://github.com/datacarpentry/rr-workshop
-  img: logos/rr-workshop.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Workshop and lesson templates
-  tags:
-  - python
-- name: socialsci-workshop
-  url: https://github.com/datacarpentry/socialsci-workshop
-  img: logos/socialsci-workshop.svg
-  bg_color: '#3572A5'
-  tile_tooltip: Workshop for social scientists.
-  tags:
-  - python
-- name: template
-  url: https://github.com/rescience-c/template
-  img: logos/template.svg
-  bg_color: '#3D6117'
-  tile_tooltip: Article template (latex and metadata)
-  tags:
-  - tex
-- name: python-ecology-lesson-es
-  url: https://github.com/datacarpentry/python-ecology-lesson-es
-  img: logos/python-ecology-lesson-es.svg
-  bg_color: '#DA5B0B'
-  tile_tooltip: Este repositorio contiene material para enseñar la lección de Data
-    Carpentry con Pyth...
-  tags:
-  - Jupyter Notebook
 - name: smwrQW
   url: https://github.com/USGS-R/smwrQW
   img: logos/smwrQW.svg
