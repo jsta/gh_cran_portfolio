@@ -12,7 +12,7 @@
   
 2. Add projects to include _manually_ via [scripts/00_project_manual.R](scripts/00_project_manual.R)
 
-3. Add projects and tags to ignore _manually_ via [scripts/00_projects_ignore.R](scripts/00_projects_ignore.R)
+3. Add projects and tags to ignore _manually_ via [scripts/00_project_ignore.R](scripts/00_project_ignore.R)
 
 4. Set author and Github account in [scripts/01_scrape.R](scripts/01_scrape.R)
 
