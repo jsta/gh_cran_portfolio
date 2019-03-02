@@ -6,9 +6,9 @@
 
 1. Add categories(tags) _manually_ via [config.toml](config.toml)
 
-  * Icon codes can be found at: https://fontawesome.io
+    * Icon codes can be found at: https://fontawesome.io
   
-  * Tags must be lower case
+    * Tags must be lower case
   
 2. Add projects to include _manually_ via [scripts/projects_manual.R](scripts/projects_manual.R)
 
@@ -22,7 +22,7 @@
 make all
 ```
 
- * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
+    * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
 
 6. Preview site 
 
