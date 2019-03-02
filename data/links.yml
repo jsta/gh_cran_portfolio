@@ -6,6 +6,7 @@ tiles:
   tile_tooltip: 'R interface to the National Hydrography Dataset '
   tags:
   - rstats
+  - favorite
 - name: dbhydroR
   url: https://github.com/ropensci/dbhydroR
   img: logos/dbhydroR.svg
@@ -43,6 +44,7 @@ tiles:
   tile_tooltip: 'Interpolation by Inverse Path Distance Weighting  '
   tags:
   - rstats
+  - favorite
 - name: glwdr
   url: https://github.com/jsta/glwdr
   img: logos/glwdr.svg
@@ -80,13 +82,6 @@ tiles:
   tile_tooltip: Shiny app to convert conductivity to salinity
   tags:
   - rstats
-- name: r-raster-vector-geospatial
-  url: https://github.com/jsta/r-raster-vector-geospatial
-  img: logos/r-raster-vector-geospatial.svg
-  bg_color: '#198CE7'
-  tile_tooltip: Data Carpentry spatial lessons - raster/vector data in R
-  tags:
-  - rstats
 - name: nml
   url: https://github.com/jsta/nml
   img: logos/nml.svg
@@ -102,6 +97,7 @@ tiles:
   tile_tooltip: Twitter feed of newly published articles in limnology
   tags:
   - python
+  - favorite
 - name: gssurgo
   url: https://github.com/jsta/gssurgo
   img: logos/gssurgo.svg
@@ -188,6 +184,7 @@ tiles:
   tile_tooltip: Scrape Data from the National Eutrophication Survey
   tags:
   - rstats
+  - favorite
 - name: lakemorpho_manuscript
   url: https://github.com/jhollist/lakemorpho_manuscript
   img: logos/lakemorpho_manuscript.svg
@@ -218,6 +215,7 @@ tiles:
   tile_tooltip: 'Collection of lake diagrams for use in LaTeX documents '
   tags:
   - tex
+  - favorite
 - name: speCluster
   url: https://github.com/cont-limno/speCluster
   img: logos/speCluster.svg
@@ -247,6 +245,7 @@ tiles:
   tile_tooltip: Does Freshwater Connectivity Influence Phosphorus Retention in Lakes?
   tags:
   - rstats
+  - favorite
 - name: MANAGE
   url: https://github.com/jsta/MANAGE
   img: logos/MANAGE.svg
@@ -454,4 +453,19 @@ tiles:
   tags:
   - rstats
   - fortran
-
+- name: r-raster-vector-geospatial
+  url: https://github.com/datacarpentry/r-raster-vector-geospatial
+  img: logos/r-raster-vector-geospatial.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Introduction to Geospatial Raster and Vector Data with R.
+  tags:
+  - rstats
+  - favorite
+- name: data-packages
+  url: https://github.com/ropenscilabs/data-packages
+  img: logos/data-packages.svg
+  bg_color: '#e34c26'
+  tile_tooltip: 'The State Of Data On CRAN: Discovering Good Data Packages'
+  tags:
+  - rstats
+  - aws

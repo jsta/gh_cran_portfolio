@@ -30,11 +30,6 @@ tag = "aws"
 icon = "fab fa-aws"
 
 [[params.nav]]
-name = "js"
-tag = "js"
-icon = "fab fa-js"
-
-[[params.nav]]
 name = "TeX"
 tag = "tex"
 icon = "fas"

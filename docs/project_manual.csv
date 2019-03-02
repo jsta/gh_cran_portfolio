@@ -1,3 +1,4 @@
 "name","tile_tooltip","url","tags","remote_img","bg_color","img"
-"smwrQW","Water quality USGS water science R functions.","https://github.com/USGS-R/smwrQW","rstats","https://owi.usgs.gov/R/img/usgs-r-logo.png","#198CE7","static/logos/smwrQW.svg"
-"r-raster-vector-geospatial","Introduction to Geospatial Raster and Vector Data with R.","https://github.com/datacarpentry/r-raster-vector-geospatial","rstats",NA,"#198CE7","static/logos/r-raster-vector-geospatial.svg"
+"smwrQW","Water quality USGS water science R functions.","https://github.com/USGS-R/smwrQW","rstats","https://owi.usgs.gov/R/img/usgs-r-logo.png","#198CE7","logos/smwrQW.svg"
+"r-raster-vector-geospatial","Introduction to Geospatial Raster and Vector Data with R.","https://github.com/datacarpentry/r-raster-vector-geospatial","rstats",NA,"#198CE7","logos/r-raster-vector-geospatial.svg"
+"data-packages","The State Of Data On CRAN: Discovering Good Data Packages","https://github.com/ropenscilabs/data-packages","rstats",NA,"#e34c26","logos/data-packages.svg"

@@ -26,7 +26,8 @@ dt <- dt_raw %>%
          TRUE ~ tags))
 
 # read custom non-scraped project info from file, append to dt
-dt_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE)
+dt_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE) %>%
+  dplyr::select(-remote_img)
 dt        <- dplyr::filter(dt, !(name %in% dt_manual$name))
 dt        <- bind_rows(dt, dt_manual)
 

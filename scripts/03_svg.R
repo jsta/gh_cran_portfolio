@@ -103,39 +103,41 @@ gh_file <- function(url = NULL, ref=NULL,
 }
 
 # ---- execute ----
-make_svg_base(outpath, project_name)
-# project_name <- "smwrQW"
-if(project_name %in% project_manual$name){
-  remote_path <- dplyr::filter(project_manual, name == project_name) %>%
-    dplyr::select(remote_img) %>% 
-    `[[`("remote_img")
-  
-  if(!is.na(remote_path)){
-    dl_path <- paste0("static/logos/", basename(remote_path))
-    if(!file.exists(dl_path)){
-      download.file(remote_path, dl_path)
-    }
-    image_read(dl_path) %>%
-      image_trim() %>%
-      image_write(outpath, format = "svg")
-  }
-}
-  
-remote_url <- dplyr::filter(dt, name == project_name)$url
-if(length(grep("github", remote_url)) > 0){
-  gh_path <- strsplit(remote_url[[1]], "/")[[1]]
-  gh_path <- paste0(gh_path[
-    (length(gh_path) - 1):length(gh_path)], collapse = "/")
-  gh_path <- paste0(gh_path, "/blob/master/man/figures/logo.png")
-  logo_path <- paste0("static/logos/", project_name, ".png")
-  if(!file.exists(logo_path)){
-    tryCatch(
-      gh_file(gh_path, destfile = logo_path), 
-      error = function(e) message("No Github logo found."))# try logo_small.png
-    if(file.exists(logo_path)){
-      image_read(logo_path) %>%
+if(!file.exists(outpath)){
+  make_svg_base(outpath, project_name)
+  # project_name <- "smwrQW"
+  if(project_name %in% project_manual$name){
+    remote_path <- dplyr::filter(project_manual, name == project_name) %>%
+      dplyr::select(remote_img) %>% 
+      `[[`("remote_img")
+    
+    if(!is.na(remote_path)){
+      dl_path <- paste0("static/logos/", basename(remote_path))
+      if(!file.exists(dl_path)){
+        download.file(remote_path, dl_path)
+      }
+      image_read(dl_path) %>%
         image_trim() %>%
         image_write(outpath, format = "svg")
+    }
+  }
+    
+  remote_url <- dplyr::filter(dt, name == project_name)$url
+  if(length(grep("github", remote_url)) > 0){
+    gh_path <- strsplit(remote_url[[1]], "/")[[1]]
+    gh_path <- paste0(gh_path[
+      (length(gh_path) - 1):length(gh_path)], collapse = "/")
+    gh_path <- paste0(gh_path, "/blob/master/man/figures/logo.png")
+    logo_path <- paste0("static/logos/", project_name, ".png")
+    if(!file.exists(logo_path)){
+      tryCatch(
+        gh_file(gh_path, destfile = logo_path), 
+        error = function(e) message("No Github logo found."))# try logo_small.png
+      if(file.exists(logo_path)){
+        image_read(logo_path) %>%
+          image_trim() %>%
+          image_write(outpath, format = "svg")
+      }
     }
   }
 }
