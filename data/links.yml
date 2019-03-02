@@ -105,6 +105,7 @@ tiles:
   tile_tooltip: Python package enabling an open source gSSURGO workflow
   tags:
   - python
+  - favorite
 - name: nlaR
   url: https://github.com/jsta/nlaR
   img: logos/nlaR.svg
