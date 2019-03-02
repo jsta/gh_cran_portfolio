@@ -2,39 +2,30 @@
 
 ## Usage
 
-### Build site
-
-```r
-blogdown::build_site() 
-blogdown::serve_site() # preview site
-```
-
 ### Workflow
 
-#### Add categories
-
-_Manually_ via [config.toml](config.toml)
+1. Add categories(tags) _manually_ via [config.toml](config.toml)
 
   * Icon codes can be found at: https://fontawesome.io
   
   * Tags must be lower case
+  
+2. Add projects to include _manually_ via [scripts/projects_manual.R](scripts/projects_manual.R)
 
-#### Add projects and tags to ignore
+3. Set author and Github account in [scripts/scrape.R](scripts/scrape.R)
 
-_Manually_ via [scripts/project_ignore.R](scripts/project_ignore.R)
+4. Add projects and tags to ignore _manually_ via [scripts/project_ignore.R](scripts/project_ignore.R)
 
-#### Pull projects from Github and CRAN 
+5. Scrape CRAN and Github, build site via [Makefile](Makefile)
 
-_Automatically_ after setting the Author and Github account in [scripts/scrape.R](scripts/scrape.R)
+```
+make all
+```
 
-#### Add projects manually 
+ * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
 
-via [scripts/projects_manual.R](scripts/projects_manual.R)
+6. Preview site 
 
-#### Build site
-
-`$ make all`
-
-#### Add secondary tags (optional)
-
-_Manually_ via [data/links.yml](data/links.yml)
+```r
+blogdown::serve_site() # preview site
+```
