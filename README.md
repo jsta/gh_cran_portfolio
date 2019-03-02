@@ -3,7 +3,7 @@
 ## Dependencies
 
 |   R Packages|  |  |
-|--:|--:|--:|
+|:--:|:--:|:--:|
 |  blogdown|  dplyr|  yaml|
 |  svglite|  magick|  base64enc|
 | purrr | gh| jsta/ghrecipes|
