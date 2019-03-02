@@ -3,16 +3,19 @@ suppressMessages(library(dplyr))
 library(tidyr)
 library(stringr)
 
+cran_author_string <- "Stachelek"
+gh_account         <- "jsta"
+
 projects_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE)
 proj_ignore     <- read.csv("static/proj_ignore.csv", stringsAsFactors = FALSE)
 
 projects_cran_raw <- tools::CRAN_package_db()
 projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %>%
   dplyr::select(Package, Author, Title, URL) %>%
-  dplyr::filter(stringr::str_detect(Author, "Stachelek")) %>%
+  dplyr::filter(stringr::str_detect(Author, cran_author_string)) %>%
   mutate(tags = "R")
 
-projects_gh_raw <- ghrecipes::get_repos("jsta") %>%
+projects_gh_raw <- ghrecipes::get_repos(gh_account) %>%
   data.frame()
 
 projects_gh_contrib_raw <- ghrecipes::get_repos_contributed("jsta") %>%
@@ -37,7 +40,6 @@ projects_gh <- bind_rows(projects_gh, projects_gh_contrib)
 projects_gh <- projects_gh %>%
   filter(!is_archived) %>%
   filter(!is_private) %>%
-  # filter(!is_fork) %>%
   filter(stargazers_count > 0) %>%
   mutate(URL = paste0("https://github.com/", name)) %>%
   rename(Title = description) %>%
@@ -59,5 +61,3 @@ res <- bind_rows(projects_cran, projects_gh) %>%
 write.csv(res, "static/projects.csv", row.names = FALSE)
 write(paste0("static/logos/", c(res$Package, projects_manual$name), ".svg"), 
       file.path("static", "projects_names.txt"))
-# res <- read.csv("static/projects.csv", stringsAsFactors = FALSE)
-

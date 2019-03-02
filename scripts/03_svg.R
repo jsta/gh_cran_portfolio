@@ -15,7 +15,6 @@ library(svglite)
 library(magrittr)
 suppressMessages(library(magick))
 library(rsvg)
-library(ggplot2)
 suppressMessages(library(dplyr))
 library(gh)
 suppressMessages(library(purrr))
@@ -61,7 +60,7 @@ make_svg_base <- function(outpath, project_name, overwrite = FALSE){
 #'   [gh::gh]
 #' @importFrom gh gh
 #' @importFrom stringi stri_match_all_regex
-#' @importFrom purrr %||% keep
+#' @importFrom purrr %||%
 #' @importFrom base64enc  base64decode
 #' @return Either the local path of the downloaded file (default), or a raw
 #'   vector
@@ -105,7 +104,6 @@ gh_file <- function(url = NULL, ref=NULL,
 # ---- execute ----
 if(!file.exists(outpath)){
   make_svg_base(outpath, project_name)
-  # project_name <- "smwrQW"
   if(project_name %in% project_manual$name){
     remote_path <- dplyr::filter(project_manual, name == project_name) %>%
       dplyr::select(remote_img) %>% 

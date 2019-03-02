@@ -18,7 +18,6 @@ dt <- dt_raw %>%
   filter(!(name %in% proj_ignore$name)) %>%
   mutate(img = paste0("logos/", name, ".svg")) %>%
   select(name, url, img, bg_color, tile_tooltip, tags) %>%
-  # group_by(tags) %>% sample_n(1) %>% ungroup() %>%
   mutate(tags = case_when(tags == "R" ~ "rstats", 
                           tags == "Python" ~ "python",
                           tags == "MATLAB" ~ "matlab",
