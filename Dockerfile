@@ -6,7 +6,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libmagick++-dev \
   imagemagick \
   && install2.r --error \
-    --deps TRUE \
     blogdown \
     yaml \
     magick \
