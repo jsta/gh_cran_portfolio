@@ -1,13 +1,10 @@
-# Github Portfolio Dashboard
+# Github-CRAN Portfolio Dashboard
+
+![Docker Build](https://img.shields.io/badge/Docker%20Image-jsta/gh-cran-portfolio-green.svg)](https://cloud.docker.com/repository/docker/jsta/gh-cran-portfolio)
 
 ## Dependencies
 
-|   R Packages|  |  |
-|:--:|:--:|:--:|
-|  blogdown|  dplyr|  yaml|
-|  svglite|  magick|  base64enc|
-| purrr | gh| jsta/ghrecipes|
-| tidyr| stringr| |
+See [Dockerfile](Dockerfile).
 
 ## Usage
 

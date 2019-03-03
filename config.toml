@@ -1,6 +1,6 @@
-baseurl = "https://jsta.github.io/ds-portfolio"
+baseurl = "https://jsta.github.io/gh-cran-portfolio"
 languageCode = "en-us"
-title = "Data Science Portfolio"
+title = "Github-CRAN Portfolio"
 theme = "slate"
 ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$",]
 publishDir = "docs"
