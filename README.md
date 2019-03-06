@@ -1,6 +1,6 @@
 # Github-CRAN Portfolio Dashboard
 
-![[Docker Build](https://img.shields.io/badge/Docker%20Image-jsta/gh-cran-portfolio-green.svg)](https://cloud.docker.com/repository/docker/jsta/gh-cran-portfolio)
+![[Docker Build](https://img.shields.io/badge/Docker%20Image-jsta/gh_cran_portfolio-green.svg)](https://cloud.docker.com/repository/docker/jsta/gh_cran_portfolio)
 
 ## Dependencies
 
