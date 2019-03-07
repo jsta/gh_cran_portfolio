@@ -6,6 +6,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libmagick++-dev \
   imagemagick \
   libjq-dev \
+  vim \
   && install2.r --error \
     blogdown \
     yaml \
