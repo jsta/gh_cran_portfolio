@@ -37,6 +37,15 @@ make all
 blogdown::serve_site()
 ```
 
+### Docker
+
+```shell
+
+export GITHUB_PAT=$(Rscript -e "cat(Sys.getenv('GITHUB_PAT'))")
+docker run --rm -e PASSWORD=<PASSWORD> -e GITHUB_PAT=$(echo $GITHUB_PAT) jsta/gh_cran_portfolio
+
+```
+
 ## Credit
 
 Modified from the [slate hugo template](https://github.com/gesquive/slate)
