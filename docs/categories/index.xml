@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Github-CRAN Portfolio</title>
-    <link>https://jsta.github.io/gh-cran-portfolio/categories/</link>
+    <link>/gh-cran-portfolio/categories/</link>
     <description>Recent content in Categories on Github-CRAN Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jsta.github.io/gh-cran-portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gh-cran-portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

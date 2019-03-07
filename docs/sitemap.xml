@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jsta.github.io/gh-cran-portfolio/categories/</loc>
+    <loc>/gh-cran-portfolio/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jsta.github.io/gh-cran-portfolio/</loc>
+    <loc>/gh-cran-portfolio/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jsta.github.io/gh-cran-portfolio/tags/</loc>
+    <loc>/gh-cran-portfolio/tags/</loc>
     <priority>0</priority>
   </url>
   
