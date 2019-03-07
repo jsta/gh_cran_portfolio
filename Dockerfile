@@ -14,10 +14,8 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     gh \
     base64enc
 
-RUN Rscript -e "devtools::install_github('jsta/ghrecipes')"
+RUN installGithub.r \
+  jsta/ghrecipes \
+  tidyverse/dplyr
 
-
-
-
-
-
+RUN git clone https://github.com/jsta/gh_cran_portfolio.git
