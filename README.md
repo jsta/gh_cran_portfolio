@@ -28,6 +28,7 @@ See [Dockerfile](Dockerfile).
     * Tags are detected automatically from Github scraping. Add secondary tags _manually_ via [data/links.yml](data/links.yml)
 
 ```
+# make clean # to remove cached projects
 make all
 ```
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Data Science Portfolio</title>
-    <link>https://jsta.github.io/ds-portfolio/tags/</link>
-    <description>Recent content in Tags on Data Science Portfolio</description>
+    <title>Tags on Github-CRAN Portfolio</title>
+    <link>https://jsta.github.io/gh-cran-portfolio/tags/</link>
+    <description>Recent content in Tags on Github-CRAN Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jsta.github.io/ds-portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jsta.github.io/gh-cran-portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

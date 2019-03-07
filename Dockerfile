@@ -16,8 +16,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     gh \
     base64enc
 
-RUN pwd
-
 RUN installGithub.r \
   jsta/ghrecipes \
   tidyverse/dplyr

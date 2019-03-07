@@ -43,7 +43,9 @@ static/logos/rv.svg
 static/logos/linguist.svg
 static/logos/janitor.svg
 static/logos/vitae.svg
+static/logos/magick.svg
 static/logos/rstats-ed.svg
+static/logos/corrr.svg
 static/logos/mapview.svg
 static/logos/rnoaa.svg
 static/logos/prob-stats.svg
@@ -54,12 +56,11 @@ static/logos/landscapemetrics.svg
 static/logos/FedData.svg
 static/logos/whiteboxR.svg
 static/logos/tidyRSS.svg
-static/logos/ghrecipes.svg
 static/logos/Hydrology.svg
+static/logos/ghrecipes.svg
 static/logos/gds18.svg
 static/logos/gpe.svg
 static/logos/research_computing.svg
-static/logos/nhdplusTools.svg
 static/logos/GrainSizeTools.svg
 static/logos/glmtools.svg
 static/logos/HydroData.svg

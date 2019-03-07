@@ -283,6 +283,20 @@ tiles:
   tile_tooltip: R Markdown Résumés and CVs
   tags:
   - rstats
+- name: magick
+  url: https://github.com/ropensci/magick
+  img: logos/magick.svg
+  bg_color: '#198CE7'
+  tile_tooltip: Magic, madness, heaven, sin
+  tags:
+  - rstats
+- name: corrr
+  url: https://github.com/drsimonj/corrr
+  img: logos/corrr.svg
+  bg_color: '#198CE7'
+  tile_tooltip: R package for exploring correlations
+  tags:
+  - rstats
 - name: mapview
   url: https://github.com/r-spatial/mapview
   img: logos/mapview.svg
@@ -373,13 +387,6 @@ tiles:
   tile_tooltip: Website for Research Computing in Earth Sciences
   tags:
   - Jupyter Notebook
-- name: nhdplusTools
-  url: https://github.com/dblodgett-usgs/nhdplusTools
-  img: logos/nhdplusTools.svg
-  bg_color: '#198CE7'
-  tile_tooltip: NHDPlus Tools
-  tags:
-  - rstats
 - name: GrainSizeTools
   url: https://github.com/marcoalopez/GrainSizeTools
   img: logos/GrainSizeTools.svg
@@ -470,3 +477,4 @@ tiles:
   tags:
   - rstats
   - aws
+
