@@ -18,19 +18,19 @@ projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %
 projects_gh_raw <- ghrecipes::get_repos(gh_account) %>%
   data.frame()
 
-projects_gh_contrib_raw <- ghrecipes::get_repos_contributed("jsta") %>%
+projects_gh_contrib_raw <- ghrecipes::get_repos_contributed(gh_account) %>%
   data.frame()
 
 projects_gh     <-  projects_gh_raw %>%
   mutate(stargazers_count = projects_gh_raw$stargazers_count$totalCount) %>%
-  mutate(tags = projects_gh_raw$language$name, 
+  mutate(tags = projects_gh_raw$language$name,
          bg_color = projects_gh_raw$language$color) %>%
   select(-language) %>%
   arrange(desc(stargazers_count))
 
 projects_gh_contrib     <-  projects_gh_contrib_raw %>%
   mutate(stargazers_count = projects_gh_contrib_raw$stargazers_count$totalCount) %>%
-  mutate(tags = projects_gh_contrib_raw$language$name, 
+  mutate(tags = projects_gh_contrib_raw$language$name,
          bg_color = projects_gh_contrib_raw$language$color) %>%
   select(-language) %>%
   arrange(desc(stargazers_count)) %>%
@@ -56,8 +56,8 @@ res <- bind_rows(projects_cran, projects_gh) %>%
   filter(!stringr::str_detect(Title, "Reviews")) %>%
   filter(!stringr::str_detect(Package, c(".io$"))) %>%
   filter(!stringr::str_detect(Package, c("Notes$"))) %>%
-  filter(!(Package %in% proj_ignore$name)) 
+  filter(!(Package %in% proj_ignore$name))
 
 write.csv(res, "static/projects.csv", row.names = FALSE)
-write(paste0("static/logos/", c(res$Package, projects_manual$name), ".svg"), 
+write(paste0("static/logos/", c(res$Package, projects_manual$name), ".svg"),
       file.path("static", "projects_names.txt"))
