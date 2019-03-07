@@ -5,6 +5,10 @@ all: docs/index.html
 
 clean:
 	-rm data/links.yml
+	-rm static/projects_names.txt
+	-rm static/projects.csv
+	-rm static/projects_clean.csv
+	-rm static/logos/*.svg
 
 static/proj_ignore.csv: scripts/00_project_ignore.R
 	Rscript $<
