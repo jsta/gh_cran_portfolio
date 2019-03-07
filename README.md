@@ -35,6 +35,7 @@ make clean # to remove cached projects
 ```
 ```
 make all
+make all
 ```
 
 6. Preview site 
