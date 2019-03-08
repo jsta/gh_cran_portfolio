@@ -20,8 +20,8 @@ RUN installGithub.r \
   jsta/ghrecipes \
   tidyverse/dplyr
 
-RUN git clone https://github.com/jsta/gh_cran_portfolio.git
-
 RUN Rscript -e "blogdown::install_hugo()"
+
+RUN git clone https://github.com/jsta/gh_cran_portfolio.git
 
 WORKDIR gh_cran_portfolio
