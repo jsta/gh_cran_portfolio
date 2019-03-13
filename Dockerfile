@@ -17,7 +17,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     base64enc
 
 RUN installGithub.r \
-  jsta/ghrecipes \
+  ropenscilabs/ghrecipes \
   tidyverse/dplyr
 
 RUN Rscript -e "blogdown::install_hugo()"
