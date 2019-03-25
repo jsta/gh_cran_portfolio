@@ -9,17 +9,22 @@ gh_account         <- "jsta"
 projects_manual <- read.csv("static/project_manual.csv", stringsAsFactors = FALSE)
 proj_ignore     <- read.csv("static/proj_ignore.csv", stringsAsFactors = FALSE)
 
+# ---- pull raw data ----
+
 projects_cran_raw <- tools::CRAN_package_db()
-projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %>%
-  dplyr::select(Package, Author, Title, URL) %>%
-  dplyr::filter(stringr::str_detect(Author, cran_author_string)) %>%
-  mutate(tags = "R")
 
 projects_gh_raw <- ghrecipes::get_repos(gh_account) %>%
   data.frame()
 
 projects_gh_contrib_raw <- ghrecipes::get_repos_contributed(gh_account) %>%
   data.frame()
+
+# ---- parsing ----
+
+projects_cran     <- projects_cran_raw[,!duplicated(names(projects_cran_raw))] %>%
+  dplyr::select(Package, Author, Title, URL) %>%
+  dplyr::filter(stringr::str_detect(Author, cran_author_string)) %>%
+  mutate(tags = "R")
 
 projects_gh     <-  projects_gh_raw %>%
   mutate(stargazers_count = projects_gh_raw$stargazers_count$totalCount) %>%
@@ -28,15 +33,18 @@ projects_gh     <-  projects_gh_raw %>%
   select(-language) %>%
   arrange(desc(stargazers_count))
 
-projects_gh_contrib     <-  projects_gh_contrib_raw %>%
-  mutate(stargazers_count = projects_gh_contrib_raw$stargazers_count$totalCount) %>%
-  mutate(tags = projects_gh_contrib_raw$language$name,
-         bg_color = projects_gh_contrib_raw$language$color) %>%
-  select(-language) %>%
-  arrange(desc(stargazers_count)) %>%
-  filter(!(name %in% projects_gh$name))
+if(nrow(projects_gh_contrib_raw) > 0){
+  projects_gh_contrib     <-  projects_gh_contrib_raw %>%
+    mutate(stargazers_count = projects_gh_contrib_raw$stargazers_count$totalCount) %>%
+    mutate(tags = projects_gh_contrib_raw$language$name,
+           bg_color = projects_gh_contrib_raw$language$color) %>%
+    select(-language) %>%
+    arrange(desc(stargazers_count)) %>%
+    filter(!(name %in% projects_gh$name))
 
-projects_gh <- bind_rows(projects_gh, projects_gh_contrib)
+  projects_gh <- bind_rows(projects_gh, projects_gh_contrib)
+}
+
 projects_gh <- projects_gh %>%
   filter(!is_archived) %>%
   filter(!is_private) %>%
